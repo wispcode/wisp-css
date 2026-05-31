@@ -1,5 +1,5 @@
 /* =========================================================================
-   behaviors.stick
+   behaviors.sticky
    ========================================================================= */
 
 @layer behaviors {
@@ -18,7 +18,10 @@
     /*  
        Position Modifiers
        ===================================================================== */
- 
+
+    /** 
+     * Sets the position.
+     */ 
     .b-sticky--top       { top: 0; bottom: unset }
     .b-sticky--bottom    { top: unset; bottom: 0 }
 }

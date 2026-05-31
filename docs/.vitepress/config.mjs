@@ -45,7 +45,8 @@ export default defineConfig({
         text: "Behaviors",
         items: [
           { text: 'Press',      link: '/behaviors/behaviors.press' },
-          { text: 'Scroll',     link: '/behaviors/behaviors.scroll' },
+          { text: 'Scroll',     link: '/behaviors/behaviors.scroll' },         
+          { text: 'Sticky',     link: '/behaviors/behaviors.sticky' },
           { text: 'Transition', link: '/behaviors/behaviors.transition' }
         ]
       },

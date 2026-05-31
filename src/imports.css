@@ -32,6 +32,7 @@
 @import "behaviors/behaviors.press.css";
 @import "behaviors/behaviors.scroll.css";
 @import "behaviors/behaviors.transition.css";
+@import "behaviors/behaviors.sticky.css";
 
 /*  ========================================================================
     #components

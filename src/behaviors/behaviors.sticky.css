@@ -1,0 +1,24 @@
+/* =========================================================================
+   behaviors.stick
+   ========================================================================= */
+
+@layer behaviors {
+    /**
+     * Makes an element stick to the top or bottom of the screen.
+     *
+     * Example:
+     *
+     * <div class="b-sticky"></div>
+     */
+    .b-sticky {
+        position: sticky;
+        top: 0;
+    }
+    
+    /*  
+       Position Modifiers
+       ===================================================================== */
+ 
+    .b-sticky--top       { top: 0; bottom: unset }
+    .b-sticky--bottom    { top: unset; bottom: 0 }
+}

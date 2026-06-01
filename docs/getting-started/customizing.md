@@ -68,6 +68,13 @@ When you are ready to make it your own, override any property in your own styles
 |-------------------------------|---------|
 | `--wisp-badge-border-radius`  | 4px     |
 
+#### Box
+
+| Property                      | Default |
+|-------------------------------|---------|
+| `--wisp-box-border-color`    | #ccc    |
+| `--wisp-box-border-radius`   | 6px     |
+
 #### Button
 
 | Property                       | Default |

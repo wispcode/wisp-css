@@ -78,7 +78,7 @@
 		font-family: var(--wisp-font-family, sans-serif);
 		font-weight: var(--wisp-font-weight-regular, 400);
 		line-height: var(--wisp-line-height, 1.5);
-		color: var(--wisp-color-body-text, #0f172a);
+		color: var(--wisp-color-text, #0f172a);
 	}
 
    /* =========================================================================

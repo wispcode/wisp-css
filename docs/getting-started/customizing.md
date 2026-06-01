@@ -42,12 +42,13 @@ When you are ready to make it your own, override any property in your own styles
 | `--wisp-font-weight-semibold` | 600      |
 | `--wisp-font-weight-medium`   | 500      |
 | `--wisp-font-weight-regular`  | 400      |
+| `--wisp-line-height`       	| 1.5      |
 
 ### Colors
 
 | Property                      | Default  |
 |-------------------------------|----------|
-| `--wisp-body-text`            | #0f172a  |
+| `--wisp-color-text`           | #0f172a  |
 | `--wisp-color-link`           | #0d6efd  |
 | `--wisp-color-primary`        | #1d4ed8  |
 | `--wisp-color-primary-text`   | #ffffff  |
@@ -57,7 +58,7 @@ When you are ready to make it your own, override any property in your own styles
 | `--wisp-color-neutral-text`   | #0f172a  |
 | `--wisp-color-surface`        | #ffffff  |
 | `--wisp-color-surface-text`   | #0f172a  |
-| `--wisp-focus-color`          | #3b82f6  |
+| `--wisp-color-focus`          | #3b82f6  |
 
 ### Components
 
@@ -110,6 +111,6 @@ When you are ready to make it your own, override any property in your own styles
 
 ### Behaviors
 
-| Property            | Default |
-|---------------------|---------|
-| `--wisp-duration`   | 200ms   |
+| Property                  | Default |
+|---------------------------|---------|
+| `--wisp-press-duration`   | 200ms   |

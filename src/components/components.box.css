@@ -30,6 +30,18 @@
     .c-box--spacing-lg 		{ padding: var(--wisp-spacing-lg, 1.5rem); }
 
     /*
+        Bordered Modifier
+        ==================================================================== */
+
+    /**
+     * Applies a border around the box.  
+     */
+	 .c-box--bordered {
+        border-width: 1px;
+        border-style: solid;
+        border-color: var(--wisp-box-border-color, #ccc)
+    } 
+    /*
         Rounded Modifier
         ==================================================================== */
 

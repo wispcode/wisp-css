@@ -77,8 +77,8 @@
 	body {
 		font-family: var(--wisp-font-family, sans-serif);
 		font-weight: var(--wisp-font-weight-regular, 400);
-		line-height: 1.5;
-		color: var(--wisp-body-text, #0f172a);
+		line-height: var(--wisp-line-height, 1.5);
+		color: var(--wisp-color-body-text, #0f172a);
 	}
 
    /* =========================================================================
@@ -125,43 +125,43 @@
       elements.strong
       ========================================================================= */
 
-   strong {
-      font-weight: var(--wisp-font-weight-bold, 700);
-   }
+	strong {
+		font-weight: var(--wisp-font-weight-bold, 700);
+	}
 
    /* =========================================================================
       elements.small
       ========================================================================= */
 
-   small {
-      font-size: var(--wisp-font-size-sm, 0.875rem);
-   }
-   
+	small {
+		font-size: var(--wisp-font-size-sm, 0.875rem);
+	}
+
    /* =========================================================================
       elements.link
       ========================================================================= */
 
-   a {
-      color: var(--wisp-color-link, #0d6efd);
-   }
+	a {
+		color: var(--wisp-color-link, #0d6efd);
+	}
 
    /* =========================================================================
       elements.summary
       ========================================================================= */
 
-   summary {
-      cursor: pointer;
-   }
+	summary {
+		cursor: pointer;
+	}
 
    /* =========================================================================
       elements.media
       ========================================================================= */
 
-   img,
-   video,
-   canvas,
-   svg,
-   picture {
-      max-width: 100%;
-   }
+	img,
+	video,
+	canvas,
+	svg,
+	picture {
+		max-width: 100%;
+	}
 }

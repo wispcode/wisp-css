@@ -13,7 +13,7 @@ When you are ready to make it your own, override any property in your own styles
 }
 ```
 
-## Custom Properties
+## Global Properties
 
 ### Spacing
 
@@ -60,64 +60,78 @@ When you are ready to make it your own, override any property in your own styles
 | `--wisp-color-surface-text`   | #0f172a  |
 | `--wisp-color-focus`          | #3b82f6  |
 
-### Components
+## Element Properties
 
-#### Badge
+### HR
 
-| Property                      | Default |
-|-------------------------------|---------|
-| `--wisp-badge-border-radius`  | 4px     |
+| Property                      | Default  |
+|-------------------------------|----------|
+| `--wisp-hr-border-color`      | #ccc     |
 
-#### Box
+## Object Properties
 
-| Property                      | Default |
-|-------------------------------|---------|
-| `--wisp-box-border-color`    | #ccc    |
-| `--wisp-box-border-radius`   | 6px     |
+### Container
 
-#### Button
+| Property                           | Default   |
+|------------------------------------|-----------|
+| `--wisp-container-width`           | 1140px    |
 
-| Property                       | Default |
-|--------------------------------|---------|
-| `--wisp-button-border-radius`  | 4px     |
+## Behavior Variables
 
-#### Card
+### Press
 
-| Property                      | Default |
-|-------------------------------|---------|
-| `--wisp-card-border-color`    | #ccc    |
-| `--wisp-card-border-radius`   | 6px     |
+| Property                           | Default   |
+|------------------------------------|-----------|
+| `--wisp-press-duration`            | 200ms     |
 
-#### Container
+### Scroll
 
-| Property                   | Default |
-|----------------------------|---------|
-| `--wisp-container-width`   | 1140px  |
+| Property                           | Default   |
+|------------------------------------|-----------|
+| `--wisp-scroll-border-color`       | #ccc      |
+| `--wisp-scroll-min-width`          | 40em      | 
 
-#### Input
+## Component Properties
 
-| Property                       | Default |
-|--------------------------------|---------|
-| `--wisp-input-border-color`    | #8c8c8c |
-| `--wisp-input-border-radius`   | 4px     |
+### Badge
 
-#### Scroll
+| Property                           | Default   |
+|------------------------------------|-----------|
+| `--wisp-badge-border-radius`       | 4px       |
 
-| Property                      | Default |
-|-------------------------------|---------|
-| `--wisp-scroll-border-color`  | #ccc    |
-| `--wisp-scroll-min-width`     | 40em    |
+### Box
 
-#### Table
+| Property                           | Default   |
+|------------------------------------|-----------|
+| `--wisp-box-border-color`          | #ccc      |
+| `--wisp-box-border-radius`         | 6px       |
 
-| Property                           | Default |
-|------------------------------------|---------|
-| `--wisp-table-border-color`        | #ccc    |
-| `--wisp-table-cell-block-padding`  | 0.5rem  |
-| `--wisp-table-cell-inline-padding` | 1rem    |
+### Button
 
-### Behaviors
+| Property                           | Default   |
+|------------------------------------|-----------|
+| `--wisp-button-border-radius`      | 4px       |
 
-| Property                  | Default |
-|---------------------------|---------|
-| `--wisp-press-duration`   | 200ms   |
+### Card
+
+| Property                           | Default    |
+|------------------------------------|------------|
+| `--wisp-card-border-color`         | #ccc       |
+| `--wisp-card-border-radius`        | 6px        |
+
+### Input
+
+| Property                           | Default    |
+|------------------------------------|------------|
+| `--wisp-input-border-color`        | #8c8c8c  |
+| `--wisp-input-border-radius`       | 4px        | 
+
+### Table
+
+| Property                           | Default    |
+|------------------------------------|------------|
+| `--wisp-table-border-color`        | #ccc       |
+| `--wisp-table-cell-block-padding`  | 0.5rem     |
+| `--wisp-table-cell-inline-padding` | 1rem       |
+ 
+ 

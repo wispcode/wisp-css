@@ -67,7 +67,7 @@
      * Applies a border radius around the card.  
      */
     .c-card--rounded {
-        border-radius: var(--wisp-card-border-radius, 6px);
+        border-radius: var(--wisp-card-border-radius, 8px);
         overflow: hidden;
     }
 }

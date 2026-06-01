@@ -29,7 +29,6 @@ export default defineConfig({
       {
         text: 'Objects',
         items: [
-          { text: 'Box',         link: '/objects/objects.box' },
           { text: 'Cluster',     link: '/objects/objects.cluster' },
           { text: 'Container',   link: '/objects/objects.container' },
           { text: 'Grid',        link: '/objects/objects.grid' },
@@ -54,6 +53,7 @@ export default defineConfig({
         text: "Components",
         items: [
           { text: 'Badge',  link: '/components/components.badge' },
+          { text: 'Box',    link: '/components/components.box' },
           { text: 'Button', link: '/components/components.button' },
           { text: 'Card',   link: '/components/components.card' },
           { text: 'Input',  link: '/components/components.input' },

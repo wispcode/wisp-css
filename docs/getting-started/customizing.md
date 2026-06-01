@@ -29,6 +29,7 @@ When you are ready to make it your own, override any property in your own styles
 
 | Property                      | Default  |
 |-------------------------------|----------|
+| `--wisp-font-family`          | sans-serif |
 | `--wisp-font-size-hero`       | 3rem     |
 | `--wisp-font-size-4x`         | 2.25rem  |
 | `--wisp-font-size-3x`         | 1.875rem |

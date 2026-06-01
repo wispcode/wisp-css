@@ -24,7 +24,7 @@ Displays a small inline label for status, count, or metadata.
 <span class="c-badge c-badge--square">
     Square
 </span>
-```
+``` 
 
 <a href="https://codepen.io/wispcss/pen/RNojpra" class="wisp-codepen-link">Demo on CodePen</a>
 

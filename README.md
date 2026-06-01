@@ -2,8 +2,8 @@
 
 A spirited framework that won't haunt your life.
 
-![Version](https://img.shields.io/badge/version-1.1.0-blue)
-![License](https://img.shields.io/github/license/wispcss/wisp-css)
+![Version](https://img.shields.io/badge/version-1.1.1-blue)
+![License](https://img.shields.io/github/license/wispcode/wisp-css)
 ![Size](https://img.shields.io/github/size/wispcode/wisp-css/dist/wisp.min.css)
 
 [Design Principles](https://wispcode.github.io/getting-started/design-principles.html)

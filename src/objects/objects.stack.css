@@ -29,16 +29,4 @@
     .o-stack--gap-sm        { row-gap: var(--wisp-spacing-sm, .5rem); }
     .o-stack--gap-md        { row-gap: var(--wisp-spacing-md, 1rem); }
     .o-stack--gap-lg        { row-gap: var(--wisp-spacing-lg, 1.5rem); }
- 
-    /*
-        Justify Modifiers
-        ==================================================================== */
-
-    /**
-     * Sets the main-axis alignment of items.
-     */
-    .o-stack--justify-start     { justify-content: flex-start; }
-    .o-stack--justify-center    { justify-content: center; }
-    .o-stack--justify-end       { justify-content: flex-end; }
-    .o-stack--justify-between   { justify-content: space-between; }
 }

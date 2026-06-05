@@ -68,5 +68,7 @@
      */
     .o-cluster--justify-start     { justify-content: flex-start; }
     .o-cluster--justify-center    { justify-content: center; }
-    .o-cluster--justify-end       { justify-content: flex-end; }
-}
+    .o-cluster--justify-end       { justify-content: flex-end; }    
+	.o-cluster--justify-around   { justify-content: space-around; }
+    .o-cluster--justify-between   { justify-content: space-between; }
+}	

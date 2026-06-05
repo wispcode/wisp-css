@@ -4,7 +4,7 @@
 
 @layer behaviors {
     /**
-     * Makes an element stick to the top or bottom of the screen.
+     * Makes an element stick to the top of the screen.
      *
      * Example:
      *
@@ -13,15 +13,6 @@
     .b-sticky {
         position: sticky;
         top: 0;
+		z-index: 10;
     }
-    
-    /*  
-       Position Modifiers
-       ===================================================================== */
-
-    /** 
-     * Sets the position.
-     */ 
-    .b-sticky--top       { top: 0; bottom: unset }
-    .b-sticky--bottom    { top: unset; bottom: 0 }
 }

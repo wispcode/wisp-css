@@ -10,7 +10,7 @@ Wisp is designed to be extended using `@layer`. You can add your own objects, be
 		@layer utilities {
 			.u-color-success {
 				background-color: #008800;
-						   color: #ffffff;
+				color: #ffffff;
 			}
 		}
 	</style>

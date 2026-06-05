@@ -26,7 +26,7 @@
         ==================================================================== */
 
     /**
-     * Removes line on interaction.
+     * Stops a text decoration line from being added on interaction. 
      */
     .o-link-inline--quiet:hover,
     .o-link-inline--quiet:focus-visible {

@@ -76,8 +76,9 @@
     /**
      * Sets the cross-axis alignment of the image and content.
      */
-    .o-media--align-start   { align-items: flex-start; }
-    .o-media--align-center  { align-items: center; }
-    .o-media--align-end     { align-items: flex-end; }
-
+	 @media (min-width: 48rem) {
+		.o-media--align-start   { align-items: flex-start; }
+		.o-media--align-center  { align-items: center; }
+		.o-media--align-end     { align-items: flex-end; }
+	}
 }

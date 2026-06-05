@@ -37,7 +37,7 @@ Instead of using an image, you can use `head` and `foot` to create a panel card.
 			<h1 class="u-type-xl">Heading</h1>
 		</div>
 		<div class="c-card__body">
-			<h2 class="u-type-xl">Subheading</h2>
+			<h2 class="u-type-lg">Subheading</h2>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 				Donec varius mauris sed ullamcorper dapibus. 
@@ -51,7 +51,7 @@ Instead of using an image, you can use `head` and `foot` to create a panel card.
 <div class="u-vite-preview">
 	<div class="c-card c-card--bordered">
 		<div class="c-card__head u-color-secondary">
-			<h1 class="u-type-xl">Heading</h1>
+			<h1 class="u-type-2xl">Heading</h1>
 		</div>
 		<div class="c-card__body">
 			<h2 class="u-type-xl">Subheading</h2>

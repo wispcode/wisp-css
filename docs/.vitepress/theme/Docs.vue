@@ -1,7 +1,8 @@
 <script setup>
 	import { onMounted, watch } from 'vue';
 	import { useRoute } from 'vitepress';
-
+	import "../../../src/imports.css";
+	import "./style.css";
 	const route = useRoute();
 
 	onMounted(() => {

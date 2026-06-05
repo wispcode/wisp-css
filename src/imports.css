@@ -32,6 +32,7 @@
 @import "behaviors/behaviors.scroll.css";
 @import "behaviors/behaviors.transition.css";
 @import "behaviors/behaviors.sticky.css";
+@import "behaviors/behaviors.tint.css";
 
 /*  ========================================================================
     #components
@@ -39,6 +40,7 @@
 
 @import "components/components.table.css";
 @import "components/components.input.css";
+@import "components/components.input-addin.css";
 @import "components/components.button.css";
 @import "components/components.box.css";
 @import "components/components.badge.css";

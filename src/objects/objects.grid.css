@@ -25,6 +25,8 @@
     /**
      * Sets equal-width columns at specific breakpoints.
      */
+	.o-grid--cols-2-sm 		  { grid-template-columns: repeat(2, 1fr); }
+
     @media (min-width: 48rem) {
         .o-grid--cols-2-md    { grid-template-columns: repeat(2, 1fr); }
         .o-grid--cols-3-md    { grid-template-columns: repeat(3, 1fr); }

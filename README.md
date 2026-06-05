@@ -2,7 +2,7 @@
 
 A spirited framework that won't haunt your life.
 
-![Version](https://img.shields.io/badge/version-1.2.0-blue)
+![Version](https://img.shields.io/badge/version-2.0.0-blue)
 ![License](https://img.shields.io/github/license/wispcode/wisp-css)
 ![Size](https://img.shields.io/github/size/wispcode/wisp-css/dist/wisp.min.css)
 

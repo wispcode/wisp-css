@@ -1,6 +1,6 @@
 # Press
 
-Applies a pressable interaction affordance.
+Applies pressable interaction affordance and box shadows.
  
 	<button class="c-button b-press">Button</button>
 

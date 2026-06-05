@@ -16,7 +16,7 @@
      */
     .b-transition { 
         transition-property: opacity, transform, box-shadow;
-        transition-duration: var(--wisp-press-duration, 200ms); 
+        transition-duration: var(--wisp-transition-duration, 200ms); 
         transition-timing-function: ease;
     }
 

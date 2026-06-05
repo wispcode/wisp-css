@@ -1,0 +1,37 @@
+ /* =========================================================================
+   behaviors.tint
+   ========================================================================= */
+
+@layer behaviors {   
+    /**
+     * Applies a darkening overlay on hover and active states.
+     *
+     * Example:
+     *
+     * <a class="c-box b-tint">
+     */
+	.b-tint {
+		position: relative;
+		isolation: isolate
+	}
+
+	.b-tint::after {
+		content: "";
+		position: absolute;
+		inset: 0;
+		background: #000;
+		opacity: 0;
+		pointer-events: none;
+		transition-property: opacity;
+		transition-duration: var(--wisp-tint-duration, 200ms); 
+		transition-timing-function: ease;
+	}
+
+	.b-tint:hover::after {
+		opacity: 0.08;
+	}
+
+	.b-tint:active::after {
+		opacity: 0.16;
+	}
+}

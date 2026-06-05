@@ -16,6 +16,12 @@
         line-height: 1;
     }
 
+    .u-type-lead {
+        font-size: var(--wisp-font-size-lead, 1.5rem);
+        font-weight: var(--wisp-font-weight-medium, 500);
+        line-height: 1.2;
+    }
+
     .u-type-4xl {
         font-size: var(--wisp-font-size-4x, 2.25rem);
         font-weight: var(--wisp-font-weight-bold, 700);

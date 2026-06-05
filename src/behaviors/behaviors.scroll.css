@@ -9,7 +9,7 @@
      * Example:
      *
      * <div class="b-scroll">
-     *     <div class="b-scroll__body"></div>
+     *     <div class="b-scroll__content"></div>
      * </div>
      */
     .b-scroll {
@@ -19,7 +19,7 @@
         overflow-x: auto;
     }
 
-    .b-scroll__body {
+    .b-scroll__content {
         min-width: var(--wisp-scroll-min-width, 40em);
     }
 

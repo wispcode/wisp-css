@@ -1,6 +1,6 @@
 # Installing
  
-There are two different ways to add Wisp CSS:
+There are two different ways to add Wisp CSS to your website.
 
 ### Full Framework
 
@@ -9,8 +9,8 @@ The simplest option if you want everything.
 	<link rel="stylesheet" href="wisp.min.css">
 
 <p>
-	<a class="c-button" href="https://github.com/wispcode/wisp-css/archive/refs/heads/main.zip">
-		Download
+	<a class="c-button" href="https://github.com/username/wisp-css/releases/latest">
+		Download Latest
 	</a>
 </p>
 

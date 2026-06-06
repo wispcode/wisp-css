@@ -59,7 +59,7 @@ Instead of using an image, you can use `head` and `foot` to create a panel card.
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 				Donec varius mauris sed ullamcorper dapibus. 
 			</p>
-		</div>
+		</div>	
 		<div class="c-card__foot u-color-neutral">
 			<p><button class="c-button">Action</button></p>
 		</div>

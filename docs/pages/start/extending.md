@@ -1,6 +1,6 @@
 # Extending
  
-Wisp is designed to be extended using `@layer`. You can add your own objects, behaviors, components, and utilities by writing into the same layers Wisp uses. Your code will slot into the cascade naturally alongside the framework without any conflicts.
+Wisp is designed to be extended using `@layer`. To extend Wisp, write to one of the layers it uses and it will slot into the cascade naturally. 
 
 	<div class="c-box u-color-success">
 		Alert Message
@@ -21,15 +21,12 @@ Wisp is designed to be extended using `@layer`. You can add your own objects, be
 	</div>
 </div> 
  
-
 ## Layers
 
 Wisp defines 5 layers in order of lowest to highest specificity.
-
-<ol>
-	<li>Foundation</li>
-	<li>Objects</li>
-	<li>Behaviors</li>
-	<li>Components</li>
-	<li>Utilities</li>
-</ol>
+ 
+1. Foundation 
+2. Objects
+3. Behaviors
+4. Components
+5. Utilities  

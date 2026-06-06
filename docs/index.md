@@ -1,18 +1,30 @@
 ---
-layout:home
+layout: home
+title: Wisp CSS
 ---
-<div class="c-box c-box--spacing-lg c-box--rounded u-color-black u-margin-block-end-md">
-	<div class="o-media o-media--gap-lg o-media--align-center u-margin-block-end-md">
-		<img class="o-media__image u-margin-block-end-md" src="/wisp-logo-xl.png">
+ 
+<!--#hero-->
+
+<div class="c-box c-box--spacing-lg c-box--rounded c-box--bordered u-color-neutral u-margin-block-end-md">
+	<div class="o-media o-media--reversed o-media--align-center">
+		<div class="o-media__image">
+			<img src="/wisp-logo-xl.jpg" alt="Logo">
+		</div>
 		<div class="o-media__content">
 			<h1>Wisp CSS</h1>
-			<p class="u-type-lead">A spirited framework that won't haunt your life</p>
-			<p><a class="c-button" href="https://github.com/wispcode/wisp-css/archive/refs/heads/main.zip"> Download </a></p>
+			<p class="u-type-lead">A spirited framework that won't haunt your websites!</p>
+			<p>
+				<a class="c-button" href="https://github.com/username/wisp-css/releases/latest"> 
+					Download Latest
+				</a>
+			</p>
 		</div>
 	</div>
 </div>
- 
-<div class="c-box c-box--feasture c-box--spacing-lg c-box--rounded c-box--bordered u-margin-block-end-md">
+
+<!--#feature: modular-->
+
+<div class="c-box c-box--feature c-box--spacing-lg c-box--rounded c-box--bordered u-margin-block-end-md">
 	<p class="u-type-xl">
 		Modular
 	</p>
@@ -25,6 +37,8 @@ layout:home
 	</p>
 </div>
 
+<!--#feature: extendable-->
+
 <div class="c-box c-box--spacing-lg c-box--rounded c-box--bordered u-margin-block-end-md">
 	<p class="u-type-xl">
 		Extendable
@@ -36,8 +50,10 @@ layout:home
 		naturally without feeling like they exist outside the system.
 	</p>
 </div>
- 
-<div class="c-box c-box--rounded c-box--bordered u-margin-block-end-md">
+
+<!--#feature: pure-->
+
+<div class="c-box c-box--rounded c-box--spacing-lg c-box--bordered u-margin-block-end-md">
 	<p class="u-type-xl">
 		Pure CSS
 	</p>

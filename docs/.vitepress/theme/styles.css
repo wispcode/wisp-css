@@ -1,0 +1,183 @@
+/* =========================================================================
+   #foundation
+   ========================================================================= */
+
+@layer foundation {
+
+	h3 {
+		font-weight: 600;
+	}
+	
+	pre {
+		padding: 1.5rem;
+		color: #fff;
+		border-radius: 4px;
+		background-color: #1b1b1f;
+	}
+	
+	p code {
+		background-color: #f0f0f0;
+	}
+}
+
+/* =========================================================================
+   #components
+   ========================================================================= */
+
+@layer component {
+	/**
+	 * Applies our theme layout.
+	 *
+	 * Example:
+	 *
+	 * <div class="c-layout">
+	 *     <div class="c-layout__sidebar"></div>
+	 *     ...
+	 * </div>
+	 */
+ 
+
+	.c-vite-layout__sidebar {
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100vh;
+		transform: translateX(-100%);
+		transition-property: transform ;
+		transition-duration: 200ms;
+		transition-timing-function: ease;
+		overflow-y: auto;
+		z-index: 100;
+	}
+
+	.c-vite-layout__sidebar.is-open {
+		transform: translateX(0);
+		width: 260px;
+	}
+
+	.c-vite-layout__main {
+		padding-block: 1rem;
+		padding-inline: 1rem;
+	}
+
+	.c-vite-layout__overlay {
+		display: none;
+		position: fixed;
+		inset: 0;
+		background: rgba(0, 0, 0, 0.5);
+		z-index: 99;
+	}
+	
+	.c-vite-layout__overlay.is-open {
+		display: block;
+	}
+
+	@media (min-width: 48rem) {
+		.c-vite-layout {
+			display: grid;
+			grid-template-columns: 260px 1fr;
+		}
+
+		.c-vite-layout__main {
+			padding-block: 1rem;
+			padding-inline: 3rem;
+		}
+
+		.c-vite-layout__sidebar {
+			position: sticky;
+			transform: none;
+		}
+	}
+	
+	/**
+	 * Add a left-hand border onto the box component.
+	 */
+ 	.c-vite-box--feature {
+		border-left-width: 8px;
+		border-left-style: solid;
+		border-left-color: #ccc;
+	}
+}
+
+/* =========================================================================
+   #utilities
+   ========================================================================= */
+
+@layer utilities {
+	/**
+	 * Applies our preview box.
+	 *
+	 * Example:
+	 *
+	 * <div class="u-vite-preview">
+	 *     ...
+	 * </div>
+	 */
+	.u-vite-preview {
+		margin-block-end: 1.5rem;
+		padding-block: 3rem;
+		padding-inline: 1.5rem;
+		border-width: 1px;
+		border-style: solid;
+		border-color: #ccc;
+		border-radius: 4px;
+	}
+
+	/**
+	 * Sets the inline start padding.
+	 *
+	 * Example:
+	 *
+	 * <div class="u-vite-inline-start-md">
+	 *     ...
+	 * </div>
+	 */
+	.u-vite-padding-inline-start-md { 
+		padding-inline-start: 1rem;
+	}
+
+	/**
+	 * Sets the background-colro to black.
+	 *
+	 * Example:
+	 *
+	 * <div class="u-vite-color-black">
+	 *     ...
+	 * </div>
+	 */
+	.u-vite-color-black {
+		color: #fff;
+		background-color: #1b1b1f;
+	}
+
+	.u-vite-only-mobile {
+		display: block;
+	}
+
+	@media (min-width: 48rem) {
+		.u-vite-only-mobile {
+			display: none;
+		}
+	}
+}
+
+
+/* =========================================================================
+   #trumps
+   ========================================================================= */
+
+/**
+ * Opinionated code used for the examples.
+ */
+ .demo-color:hover {	
+	background-color: #222; 
+	color: #fff;
+}
+
+.demo-transform {
+	transform: scale(.95);
+}
+
+.demo-transform:hover {
+	transform: scale(1);
+}

@@ -166,7 +166,7 @@
 		border: 0;
 		border-bottom-width: 1px;
 		border-bottom-style: solid;
-		border-bottom-color: var(--wisp-hr-border-color, #ccc);
+		border-bottom-color: var(--wisp-hr-border-color, #cbd5e1);
 	}
 
    /* =========================================================================

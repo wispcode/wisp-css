@@ -20,10 +20,28 @@
         background-color: var(--wisp-color-neutral, #f1f5f9);
     }
 
+	/*
+       Square Modifier
+       ==================================================================== */
+
     /**
      * Applies a smaller border radius for a label style badge.
      */
     .c-badge--square {
         border-radius: var(--wisp-badge-border-radius, 4px);
     }
+
+	/*
+       Outlined Modifier
+       ==================================================================== */
+
+    /**
+     * Applies a border around the badge and removes it background.
+     */
+	 .c-badge--outline {
+        border-width: 1px;
+        border-style: solid;
+        border-color: var(--wisp-badge-outline-color, #cbd5e1);
+		background-color: transparent;
+    } 
 }

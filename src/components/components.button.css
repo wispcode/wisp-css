@@ -72,4 +72,40 @@
         padding-block: var(--wisp-spacing-md, 1rem);
         padding-inline: var(--wisp-spacing-lg, 1.5rem);
     }
+	     
+    /*
+        Pill Modifier
+        ==================================================================== */
+
+    /**
+     * Applies a pill shape to the button.
+     */
+	.c-button--pill {
+		border-radius: 9999px;
+	}
+
+	/*
+	    Outline Modifier
+        ==================================================================== */
+
+    /**
+     * Applies an outline style to the button.
+     */
+	.c-button--outline {
+		border-width: 1px;
+		border-style: solid;
+		border-color: var(--wisp-button-outline-border-color, #fff);
+		color: var(--wisp-button-outline-text-color, #fff);
+		background-color: transparent;
+	}
+	
+	.c-button--outline::after {
+		display: none;
+	}
+
+	.c-button--outline:hover, 
+	.c-button--outline:active {
+		background-color: var(--wisp-button-outline-border-color, #fff);
+		color: var(--wisp-button-outline-hover-text-color, #0f172a);
+	}
 }

@@ -1,0 +1,30 @@
+/* =========================================================================
+   utilities.hidden
+   ========================================================================= */
+
+@layer utilities {
+   /**
+     * Hides an element below a breakpoint, reverting to its natural display 
+     * value above it.
+     *
+     * Example:
+     *
+     * <div class="u-hidden-sm"></div>
+     */			
+	.u-hidden-sm,
+	.u-hidden-md {
+		display: none;
+	}
+
+	@media (min-width: 48rem) {
+		.u-hidden-sm {
+			display: revert;
+		}
+	}
+	
+	@media (min-width:64rem) {
+		.u-hidden-md {
+			display: revert;
+		}
+	}
+}

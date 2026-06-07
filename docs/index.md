@@ -8,7 +8,7 @@ title: Wisp CSS
 <div class="c-box c-box--spacing-lg c-box--round c-box--border u-color-neutral u-margin-block-end-md">
 	<div class="o-media o-media--reversed o-media--align-center">
 		<div class="o-media__image">
-			<img src="/wisp-logo-xl.jpg" alt="Logo">
+			<img class="u-hidden-sm" src="/wisp-logo-xl.jpg" alt="Logo">
 		</div>
 		<div class="o-media__content">
 			<h1>Wisp CSS</h1>
@@ -27,7 +27,7 @@ title: Wisp CSS
 <div class="c-box c-box--feature c-box--spacing-lg c-box--round c-box--border u-margin-block-end-md">
 	<div class="o-media o-media--gap-lg">
 		<div class="o-media__image">
-			<img src="/feature-modular.png" alt="Modular">
+			<img  class="u-hidden-sm" src="/feature-modular.png" alt="Modular">
 		</div>
 		<div class="o-media__content">
 			<p class="u-type-xl">
@@ -47,7 +47,7 @@ title: Wisp CSS
 <div class="c-box c-box--spacing-lg c-box--round c-box--border u-margin-block-end-md">
 	<div class="o-media o-media--gap-lg">
 		<div class="o-media__image">
-			<img src="/feature-extendable.png" alt="Modular">
+			<img class="u-hidden-sm" src="/feature-extendable.png" alt="Extendable">
 		</div>
 		<div class="o-media__content">
 			<p class="u-type-xl">
@@ -68,7 +68,7 @@ title: Wisp CSS
 <div class="c-box c-box--spacing-lg c-box--round c-box--border u-margin-block-end-md">
 	<div class="o-media o-media--gap-lg">
 		<div class="o-media__image">
-			<img src="/feature-pure.png" alt="Pure">
+			<img class="u-hidden-sm" src="/feature-pure.png" alt="Pure">
 		</div>
 		<div class="o-media__content">
 			<p class="u-type-xl">

@@ -82,6 +82,7 @@
 				
 				<div class="o-stack o-stack--gap-sm u-type-sm u-margin-block-end-md u-vite-padding-inline-start-md">
 					<a class="o-link-inline" href="/pages/utilities/color">Color</a>		
+					<a class="o-link-inline" href="/pages/utilities/hidden">Hidden</a>															
 					<a class="o-link-inline" href="/pages/utilities/margin">Margin</a>									
 					<a class="o-link-inline" href="/pages/utilities/text">Text</a>										
 					<a class="o-link-inline" href="/pages/utilities/type">Type</a>

@@ -6,7 +6,7 @@ A spirited framework that won't haunt your website.
 ![License](https://img.shields.io/github/license/wispcode/wisp-css)
 ![Size](https://img.shields.io/github/size/wispcode/wisp-css/dist/wisp.min.css)
 
-[Design Principles](https://wispcode.github.io/getting-started/design-principles.html)
+[Design Principles](https://wispcode.github.io/start/principles.html)
 
 ------
 

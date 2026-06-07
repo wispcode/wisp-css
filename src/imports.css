@@ -55,4 +55,5 @@
 @import "utilities/utilities.color.css";
 @import "utilities/utilities.text.css";
 @import "utilities/utilities.width.css";
+@import "utilities/utilities.hidden.css";
 @import "utilities/utilities.visually-hidden.css";

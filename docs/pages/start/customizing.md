@@ -199,7 +199,7 @@ When you are ready to make it your own, override any property in your own styles
 	<tbody>
 		<tr>
 			<td>wisp-hr-border-color</td>
-			<td>#ccc</td>
+			<td>#cbd5e1</td>
 		</tr>
 	</tbody>
 </table>
@@ -254,7 +254,7 @@ When you are ready to make it your own, override any property in your own styles
 	<tbody>
 		<tr>
 			<td>wisp-scroll-border-color</td>
-			<td>#ccc</td>
+			<td>#cbd5e1</td>
 		</tr>
 		<tr>
 			<td>wisp-scroll-min-width</td>
@@ -296,6 +296,10 @@ When you are ready to make it your own, override any property in your own styles
 			<td>wisp-badge-border-radius</td>
 			<td>4px</td>
 		</tr>
+		<tr>
+			<td>wisp-badge-outline-color</td>
+			<td>cbd5e1</td>
+		</tr>		
 	</tbody>
 </table>
 
@@ -311,7 +315,7 @@ When you are ready to make it your own, override any property in your own styles
 	<tbody>
 		<tr>
 			<td>wisp-box-border-color</td>
-			<td>#ccc</td>
+			<td>#cbd5e1</td>
 		</tr>
 		<tr>
 			<td>wisp-box-border-radius</td>
@@ -331,12 +335,20 @@ When you are ready to make it your own, override any property in your own styles
 	</thead>
 	<tbody>
 		<tr>
-			<td>wisp-button-border-radius</td>
-			<td>4px</td>
+			<td>wisp-button-outline-border-color</td>
+			<td>#ffffff</td>
+		</tr>
+		<tr>
+			<td>wisp-button-outline-text-color</td>
+			<td>#ffffff</td>
+		</tr>
+		<tr>
+			<td>wisp-button-outline-hover-text-color</td>
+			<td>#0f172a</td>
 		</tr>
 	</tbody>
 </table>
-
+ 
 ### Card
 
 <table class="c-table c-table--border-cells">
@@ -349,7 +361,7 @@ When you are ready to make it your own, override any property in your own styles
 	<tbody>
 		<tr>
 			<td>wisp-card-border-color</td>
-			<td>#ccc</td>
+			<td>#cbd5e1</td>
 		</tr>
 		<tr>
 			<td>wisp-card-border-radius</td>
@@ -391,7 +403,7 @@ When you are ready to make it your own, override any property in your own styles
 	<tbody>
 		<tr>
 			<td>wisp-table-border-color</td>
-			<td>#ccc</td>
+			<td>#cbd5e1</td>
 		</tr>
 		<tr>
 			<td>wisp-table-cell-block-padding</td>
@@ -400,6 +412,10 @@ When you are ready to make it your own, override any property in your own styles
 		<tr>
 			<td>wisp-table-cell-inline-padding</td>
 			<td>1rem</td>
+		</tr>
+		<tr>
+			<td>wisp-table-stripe-color</td>
+			<td>#f1f5f9</td>
 		</tr>
 	</tbody>
 </table>

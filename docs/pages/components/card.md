@@ -2,7 +2,7 @@
 
 Arranges content in a contained card layout.
   
-	<div class="c-card c-card--bordered">
+	<div class="c-card c-card--border">
 		<img class="c-card__image" src="https://placeholdit.com/420x80/1d4ed8/ffffff" alt="">
 		<div class="c-card__body">
 			<h1 class="u-type-xl">Heading</h1>
@@ -14,7 +14,7 @@ Arranges content in a contained card layout.
 	</div>
 
 <div class="u-vite-preview">
-	<div class="c-card c-card--bordered">
+	<div class="c-card c-card--border">
 		<img class="c-card__image" src="https://placeholdit.com/420x80/1d4ed8/ffffff" alt="">
 		<div class="c-card__body">
 			<h1 class="u-type-xl">Heading</h1>
@@ -68,11 +68,11 @@ Instead of using an image, you can use `head` and `foot` to create a panel card.
 
 ## Modifiers
 
-### Bordered
+### Border
 
 Applies a thin border around the card.
   
-	<div class="c-card c-card--bordered">
+	<div class="c-card c-card--border">
 		<img class="c-card__image" src="https://placeholdit.com/420x80/1d4ed8/ffffff" alt="">
 		<div class="c-card__body">
 			<h1 class="u-type-xl">Heading</h1>
@@ -84,7 +84,7 @@ Applies a thin border around the card.
 	</div>
 
 <div class="u-vite-preview">
-	<div class="c-card c-card--bordered">
+	<div class="c-card c-card--border">
 		<img class="c-card__image" src="https://placeholdit.com/420x80/1d4ed8/ffffff" alt="">
 		<div class="c-card__body">
 			<h1 class="u-type-xl">Heading</h1>
@@ -96,11 +96,11 @@ Applies a thin border around the card.
 	</div>
 </div> 
 
-### Rounded
+### Round
  
 Applies a border radius to the card.
   
-	<div class="c-card c-card--bordered c-card--rounded">
+	<div class="c-card c-card--border c-card--round">
 		<img class="c-card__image" src="https://placeholdit.com/420x80/1d4ed8/ffffff" alt="">
 		<div class="c-card__body">
 			<h1 class="u-type-xl">Heading</h1>
@@ -112,7 +112,7 @@ Applies a border radius to the card.
 	</div>
 
 <div class="u-vite-preview">
-	<div class="c-card c-card--bordered c-card--rounded">
+	<div class="c-card c-card--border c-card--round">
 		<img class="c-card__image" src="https://placeholdit.com/420x80/1d4ed8/ffffff" alt="">
 		<div class="c-card__body">
 			<h1 class="u-type-xl">Heading</h1>
@@ -130,7 +130,7 @@ Applies a border radius to the card.
 
 Use the `press` behavior to create raised and pressable  cards.
 
-	<div class="c-card c-card--bordered c-card--rounded b-press">
+	<div class="c-card c-card--border c-card--round b-press">
 		<img class="c-card__image" src="https://placeholdit.com/420x80/1d4ed8/ffffff" alt="">
 		<div class="c-card__body">
 			<h1 class="u-type-xl">Heading</h1>
@@ -142,7 +142,7 @@ Use the `press` behavior to create raised and pressable  cards.
 	</div>
 
 <div class="u-vite-preview">
-	<div class="c-card c-card--bordered c-card--rounded b-press">
+	<div class="c-card c-card--border c-card--round b-press">
 		<img class="c-card__image" src="https://placeholdit.com/420x80/1d4ed8/ffffff" alt="">
 		<div class="c-card__body">
 			<h1 class="u-type-xl">Heading</h1>

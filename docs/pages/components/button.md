@@ -24,28 +24,58 @@ Applies different sizes to buttons.
  	
 <div class="u-vite-preview">
 	<button class="c-button c-button--size-sm">
-		Button
+		Small
 	</button>
 </div> 
 
 	<button class="c-button c-button--size-md">
-		Small
+		Medium
 	</button>
  	
 <div class="u-vite-preview">
 	<button class="c-button c-button--size-md">
-		Button
+		Medium
 	</button>
 </div> 
    
 	<button class="c-button c-button--size-lg">
-		Small
+		Large
 	</button>
  	
 <div class="u-vite-preview">
 	<button class="c-button c-button--size-lg">
-		Button
+		Large
 	</button>
+</div> 
+
+### Pill
+
+Applies a pill shape to the button.
+  
+	<button class="c-button c-button--pill">
+		Pill
+	</button>
+ 	
+<div class="u-vite-preview">
+	<button class="c-button c-button--pill">
+		Pill
+	</button>
+</div>  
+
+### Outline
+
+Applies a pill shape to the button.
+  
+	<button class="c-button c-button--outline">
+		Outline
+	</button>
+ 	
+<div class="u-vite-preview">
+	<div class="c-box u-color-secondary">
+		<button class="c-button c-button--outline">
+			Outline
+		</button>
+	</div>
 </div> 
 
 ## Notes
@@ -55,12 +85,12 @@ Applies different sizes to buttons.
 Use color utilities or custom color classes to change the color.
 
 	<button class="c-button u-color-secondary">
-		Small
+		Secondary
 	</button>
  	
 <div class="u-vite-preview">
 	<button class="c-button  u-color-secondary">
-		Button
+		Secondary
 	</button>
 </div> 
 
@@ -69,11 +99,11 @@ Use color utilities or custom color classes to change the color.
 Use the `press` behavior to create raised buttons.
 
 	<button class="c-button b-press">
-		Small
+		Raised
 	</button>
  	
 <div class="u-vite-preview">
 	<button class="c-button b-press">
-		Button
+		Raised
 	</button>
 </div> 

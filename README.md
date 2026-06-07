@@ -1,6 +1,6 @@
 ![Wisp CSS Logo](./images/wisp-black-logo.png)
 
-A spirited framework that won't haunt your life.
+A spirited framework that won't haunt your website.
 
 ![Version](https://img.shields.io/badge/version-2.0.0-blue)
 ![License](https://img.shields.io/github/license/wispcode/wisp-css)

@@ -47,26 +47,26 @@
     } 
 
     /*
-        Bordered Modifier
+        Border Modifier
         ==================================================================== */
 
     /**
      * Applies a border around the card. Use b-press for box-shadow and state.
      */
-    .c-card--bordered {
+    .c-card--border {
         border-width: 1px;
         border-style: solid;
-        border-color: var(--wisp-card-border-color, #ccc)
+        border-color: var(--wisp-card-border-color, #cbd5e1)
     } 
     
     /*
-        Rounded Modifier
+        Round Modifier
         ==================================================================== */
 
     /**
      * Applies a border radius around the card.  
      */
-    .c-card--rounded {
+    .c-card--round {
         border-radius: var(--wisp-card-border-radius, 6px);
         overflow: hidden;
     }

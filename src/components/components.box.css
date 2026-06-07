@@ -36,11 +36,12 @@
     /**
      * Applies a border around the box.  
      */
-	 .c-box--bordered {
+	 .c-box--border {
         border-width: 1px;
         border-style: solid;
-        border-color: var(--wisp-box-border-color, #ccc)
+        border-color: var(--wisp-box-border-color, #cbd5e1)
     } 
+
     /*
         Rounded Modifier
         ==================================================================== */
@@ -48,7 +49,7 @@
     /**
      * Applies a border radius around the box.  
      */
-	.c-box--rounded {
+	.c-box--round {
         border-radius: var(--wisp-box-border-radius, 6px);
         overflow: hidden;
     }	

@@ -3,7 +3,7 @@
 A spirited framework that won't haunt your website.
 
 ![Version](https://img.shields.io/badge/version-2.1.0-blue)
-![License](https://img.shields.io/badge/MIT-blue)
+![License](https://img.shields.io/badge/license-MIT-red)
 ![Size](https://img.shields.io/github/size/wispcode/wisp-css/dist/wisp.min.css)
 
 ------

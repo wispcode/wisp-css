@@ -1,3 +1,12 @@
+/**
+ * Note:
+ *
+ * Although structural in appearance, this component overrides border-radius 
+ * on its children to create a visual join between adjacent UI elements. It
+ * has an implicit dependency on the components it contains. Objects must not
+ * depend on components, so this belongs in the components layer.
+ */
+
 /* =========================================================================
    components.input-addin
    ========================================================================= */

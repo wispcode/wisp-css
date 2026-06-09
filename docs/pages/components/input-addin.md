@@ -1,8 +1,8 @@
 # Input Addin
 
-Inline link pattern for navigation and inline text content.
+Removes space and border-radius where an input and adjacent button meet.
   
-	<div class="o-input-addin">
+	<div class="c-input-addin">
 		<input class="c-input">
 		<button class="c-button">Search</button>
 	</div>

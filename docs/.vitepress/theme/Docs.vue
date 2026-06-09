@@ -72,6 +72,7 @@
 					<a class="o-link-inline" href="/pages/components/badge">Badge</a>
 					<a class="o-link-inline" href="/pages/components/box">Box</a>
 					<a class="o-link-inline" href="/pages/components/button">Button</a>	
+					<a class="o-link-inline" href="/pages/components/button-group">Button Group</a>	
 					<a class="o-link-inline" href="/pages/components/card">Card</a>	
 					<a class="o-link-inline" href="/pages/components/input">Input</a>	
 					<a class="o-link-inline" href="/pages/components/input-addin">Input Addin</a>					

@@ -2,11 +2,9 @@
 
 A spirited framework that won't haunt your website.
 
-![Version](https://img.shields.io/badge/version-2.0.0-blue)
-![License](https://img.shields.io/github/license/wispcode/wisp-css)
+![Version](https://img.shields.io/badge/version-2.1.0-blue)
+![License](https://img.shields.io/badge/MIT-blue)
 ![Size](https://img.shields.io/github/size/wispcode/wisp-css/dist/wisp.min.css)
-
-[Design Principles](https://wispcode.github.io/pages/start/principles.html)
 
 ------
 

@@ -54,9 +54,8 @@ title: Wisp CSS
 				Extendable
 			</p>
 			<p>
-				A framework should provide structure, not boundaries. Wisp 
-				gives developers a foundation to build on without dictating 
-				how a project should evolve. New classes can be introduced 
+				A framework should not provide boundaries. Wisp gives developers
+				the a foundation to build. New classes can be introduced 
 				without feeling like they exist outside the system.
 			</p>
 		</div>

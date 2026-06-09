@@ -76,6 +76,7 @@
 					<a class="o-link-inline" href="/pages/components/card">Card</a>	
 					<a class="o-link-inline" href="/pages/components/input">Input</a>	
 					<a class="o-link-inline" href="/pages/components/input-addin">Input Addin</a>					
+					<a class="o-link-inline" href="/pages/components/spinner">Spinner</a>	
 					<a class="o-link-inline" href="/pages/components/table">Table</a>										
 				</div>
 

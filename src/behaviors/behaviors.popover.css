@@ -1,0 +1,21 @@
+/* =========================================================================
+   behaviors.popover
+   ========================================================================= */
+
+@layer behaviors {
+    /**
+     * Anchors a popover below its trigger and flips up if space is limited.
+     *
+     * Example:
+     *
+     * <button popovertarget=""></button>
+	 *
+	 * <div id="" class="b-popover">
+	 * </div>
+     */
+    .b-popover {
+		position-area: block-end;
+		position-try-fallbacks: flip-block;
+		margin-block: 4px;
+    } 	 
+}

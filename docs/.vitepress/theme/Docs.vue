@@ -59,6 +59,7 @@
 				<div class="u-type-lg u-margin-block-end-sm"><strong>Behaviors</strong></div>
 				
 				<div class="o-stack o-stack--gap-sm u-type-sm u-margin-block-end-md u-vite-padding-inline-start-md">
+					<a class="o-link-inline" href="/pages/behaviors/popover">Popover</a>
 					<a class="o-link-inline" href="/pages/behaviors/press">Press</a>
 					<a class="o-link-inline" href="/pages/behaviors/scroll">Scroll</a>	
 					<a class="o-link-inline" href="/pages/behaviors/sticky">Sticky</a>	

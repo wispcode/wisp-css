@@ -1,3 +1,8 @@
 import Layout from './Layout.vue'
-
-export default { Layout }
+import DrawerDemo from './components/DrawerDemo.vue'
+export default { 
+	Layout, 
+    enhanceApp({ app }) {
+        app.component('DrawerDemo', DrawerDemo)
+    }
+}

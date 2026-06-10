@@ -14,7 +14,7 @@ title: Wisp CSS
 			<h1>Wisp CSS</h1>
 			<p class="u-type-lead">A spirited framework that won't haunt your websites!</p>
 			<p>
-				<a class="c-button" href="https://github.com/username/wisp-css/releases/latest"> 
+				<a class="c-button" href="https://github.com/wispcode/wisp-css/releases/latest"> 
 					Download Latest
 				</a>
 			</p>

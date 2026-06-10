@@ -370,6 +370,35 @@ When you are ready to make it your own, override any property in your own styles
 	</tbody>
 </table>
 
+### Drawer
+
+<table class="c-table c-table--border-cells">
+	<thead>
+		<tr>
+			<th class="u-width-md">Property</th>
+			<th>Default</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>wisp-drawer-background-color</td>
+			<td>#ffffff</td>
+		</tr>
+		<tr>
+			<td>wisp-drawer-text-color</td>
+			<td>0f172a</td>
+		</tr>
+		<tr>
+			<td>wisp-drawer-box-shadow</td>
+			<td>4px 0 12px rgba(0, 0, 0, 0.15)</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>
+	<small>Negative values are used for the box-shadow when position on the right.</small>
+</p>
+
 ### Input
 
 <table class="c-table c-table--border-cells">

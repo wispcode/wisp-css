@@ -75,6 +75,7 @@
 					<a class="o-link-inline" href="/pages/components/button">Button</a>	
 					<a class="o-link-inline" href="/pages/components/button-group">Button Group</a>	
 					<a class="o-link-inline" href="/pages/components/card">Card</a>	
+					<a class="o-link-inline" href="/pages/components/dialog">Dialog</a>							
 					<a class="o-link-inline" href="/pages/components/drawer">Drawer</a>						
 					<a class="o-link-inline" href="/pages/components/input">Input</a>	
 					<a class="o-link-inline" href="/pages/components/input-addin">Input Addin</a>					

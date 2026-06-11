@@ -51,7 +51,4 @@ Slides the drawer in from on the right-hand side instead.
 Determines is the drawer is opened or closed.
  
 	<div id="sidebar" class="c-drawer is-open"></div>
-	
-## Notes
-
-Wisp does not ship with a JavaScript library or make opinions on how you should implement this in your projects.
+	 

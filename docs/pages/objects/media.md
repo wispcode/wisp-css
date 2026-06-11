@@ -28,7 +28,7 @@ Aligns an image next to content.
 
 Places the image after the content.
 
-	<div class="o-media o-media--reversed">
+	<div class="o-media o-media--reverse">
 		<div class="o-media__image">
 			<img src="https://placeholdit.com/64x64/1d4ed8/ffffff" alt="">
 		</div>
@@ -38,7 +38,7 @@ Places the image after the content.
 	 </div>
 
 <div class="u-vite-preview">
-	<div class="o-media o-media--reversed">
+	<div class="o-media o-media--reverse">
 		<div class="o-media__image">
 			<img src="https://placeholdit.com/64x64/1d4ed8/ffffff" alt="">
 		</div>

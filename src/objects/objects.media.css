@@ -2,60 +2,31 @@
    objects.media
    ========================================================================= */
 
-   @layer objects {
+@layer objects {
     /**
      * Aligns an image next to content.
      *
      * Example:
      *
      * <div class="o-media">
-     *     <img class="o-media__image">
+	 *     <div class="o-media__image">
+	 *          <img>
+	 *     </div>
      *     <div class="o-media__content"></div>
      * </div>
      */
-    .o-media { 
-        display: flex;
-        flex-direction: column;
-    }
-
-    .o-media__image { 
-        display: block; 
-        flex-shrink: 0;
-    }
+	.o-media {
+		display: flex;
+		gap: var(--wisp-spacing-md, 1rem); 
+	}
 
     .o-media__content { 
         flex: 1;
     }
 
-    .o-media__content,
+	.o-media__content,
     .o-media__content > :last-child {
         margin-block-end: 0;
-    }
-
-    @media (min-width: 48rem) {
-        .o-media {
-            flex-direction: row;
-            align-items: flex-start;
-        }
-
-        .o-media__image {
-            margin-inline-end: var(--wisp-spacing-md, 1rem);
-        }
-    }
-
-    /*  
-       Reverse Modifier
-       ===================================================================== */ 
-
-    /**
-     * Places the image after the content.
-     */
-    @media (min-width: 48rem) {
-        .o-media--reversed > .o-media__image {
-            order: 1;
-            margin-inline-end: 0;
-            margin-inline-start: var(--wisp-spacing-md, 1rem);
-        }
     }
 
     /*  
@@ -65,11 +36,11 @@
     /**
      * Sets the gap on the inline axis.
      */
-    .o-media--gap-sm > .o-media__image  { margin-inline-end: var(--wisp-spacing-sm, .5rem); }
-    .o-media--gap-md > .o-media__image  { margin-inline-end: var(--wisp-spacing-md, 1rem); }
-    .o-media--gap-lg > .o-media__image  { margin-inline-end: var(--wisp-spacing-lg, 1.5rem); }
-
-   /*  
+	.o-media--gap-sm { gap: var(--wisp-spacing-sm, .5rem); }
+	.o-media--gap-md { gap: var(--wisp-spacing-md, 1rem); }
+	.o-media--gap-lg { gap: var(--wisp-spacing-lg, 1.5rem); }
+	
+   	/*  
        Align Modifiers
        ===================================================================== */
 
@@ -80,5 +51,36 @@
 		.o-media--align-start   { align-items: flex-start; }
 		.o-media--align-center  { align-items: center; }
 		.o-media--align-end     { align-items: flex-end; }
+	}
+
+	/*
+        Responsive Modifier
+        ==================================================================== */
+
+    /**
+     * Arrange items for medium displays and up.
+     */
+	 
+	.o-media--responsive {
+        flex-direction: column;
+    }
+    
+    @media (min-width: 48rem) {
+        .o-media--responsive {
+            flex-direction: row;
+        }
+    }
+
+	/*  
+       Reverse Modifier
+       ===================================================================== */ 
+
+    /**
+      * Places the image after the content.
+      */
+	@media (min-width: 48rem) {
+		.o-media--reverse > .o-media__image {
+			order: 1;
+		} 
 	}
 }

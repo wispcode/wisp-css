@@ -25,7 +25,7 @@
         ==================================================================== */
 
     /**
-     * Arrange items horizontally on medium displays and up.
+     * Rearrange items for medium displays and up.
      */
     .o-cluster--responsive {
         flex-direction: column;
@@ -58,7 +58,7 @@
     .o-cluster--align-start   { align-items: flex-start; }
     .o-cluster--align-center  { align-items: center; }
     .o-cluster--align-end     { align-items: flex-end; } 
-      
+ 
     /*
         Justify Modifiers
         ==================================================================== */

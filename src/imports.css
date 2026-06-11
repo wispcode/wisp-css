@@ -39,6 +39,7 @@
     #components
     ======================================================================== */
 
+@import "components/components.dialog.css";
 @import "components/components.drawer.css";
 @import "components/components.card.css";
 @import "components/components.box.css";

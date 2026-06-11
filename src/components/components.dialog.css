@@ -1,0 +1,30 @@
+ /* =========================================================================
+   components.dialog
+   ========================================================================= */
+
+   @layer components {
+	/**
+	 * Applies visual styles to the native <dialog> element.
+	 *
+	 * Example:
+	 *
+	 * <dialog class="c-dialog">
+	 * </dialog>
+	 */
+	.c-dialog {
+		width: 90%;
+		max-width: var(--wisp-dialog-max-width, 560px);
+        border-radius: var(--wisp-dialog-border-radius, 8px);
+		box-shadow: var(--wisp-dialog-box-shadow, 0 8px 24px rgba(0, 0, 0, 0.20));
+		color: var(--wisp-dialog-text-color, #0f172a);
+		background-color: var(--wisp-dialog-background-color, #fff);	
+	}
+	 
+	.c-dialog::backdrop {
+		background-color: rgb(0 0 0 / 0.5);
+	}
+
+	.c-dialog:focus-visible {
+        outline: none;
+	} 
+}

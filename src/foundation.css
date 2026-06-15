@@ -71,7 +71,7 @@
       ========================================================================= */
 
 	html {
-		font-size: var(--wisp-font-size-body, 100%);
+		font-size: 100%;
 	}
 
    /* =========================================================================
@@ -90,19 +90,19 @@
       ========================================================================= */
 
 	h1 {
-		font-size: var(--wisp-font-size-4x, 2.25rem);
+		font-size: var(--wisp-font-size-4xl, 2.25rem);
 		font-weight: var(--wisp-font-weight-bold, 700);
 		line-height: 1.1;
 	}
 
 	h2 {
-		font-size: var(--wisp-font-size-3x, 1.875rem);
+		font-size: var(--wisp-font-size-3xl, 1.875rem);
 		font-weight: var(--wisp-font-weight-bold, 700);
 		line-height: 1.15;
 	}
 
 	h3 {
-		font-size: var(--wisp-font-size-2x, 1.5rem);
+		font-size: var(--wisp-font-size-2xl, 1.5rem);
 		font-weight: var(--wisp-font-weight-semibold, 600);
 		line-height: 1.2;
 	}

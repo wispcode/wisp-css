@@ -70,6 +70,10 @@ When you are ready to make it your own, override any property in your own styles
 			<td>sans-serif</td>
 		</tr>
 		<tr>
+			<td>wisp-font-size-body</td>
+			<td>100%</td>
+		</tr>
+		<tr>
 			<td>wisp-font-size-hero</td>
 			<td>3rem</td>
 		</tr>

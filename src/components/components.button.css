@@ -98,7 +98,6 @@
 		color: var(--wisp-button-outline-text-color, #fff);
 		background-color: transparent;
 	}
-	
 	.c-button--outline::after {
 		display: none;
 	}

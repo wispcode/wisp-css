@@ -29,7 +29,7 @@
     }
 
 	/**
-	 * The universal selector is used to avoid enforcing a 
+	 * The universal selector is used to avoid forcing a 
 	 * dependency on c-button.
 	 */
 	 .c-button-group > :first-child {

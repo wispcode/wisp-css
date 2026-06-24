@@ -18,7 +18,7 @@ Arranges items vertically using consistent spacing.
 ```
 
 <div class="c-doc-preview">
-	<div class="o-cluster">
+	<div class="o-stack">
 		<a class="c-link-inline" href="#">Link 1</a>
 		<a class="c-link-inline" href="#">Link 2</a>
 		<a class="c-link-inline" href="#">Link 3</a>				

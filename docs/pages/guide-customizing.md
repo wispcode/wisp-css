@@ -314,26 +314,6 @@ Module-specific properties defined inside their module.
     </table>
 </div>
 
-<!--#b-scroll-->
-
-<div class="c-box c-box--border u-margin-block-end-md">
-	<h2 class="u-type-xl">b-press-scroll</h2>
-     <table class="c-table c-table--border-rows">
-    	<thead class="u-visually-hidden">
-    		<tr>
-    			<th>Property</th>
-    			<th>Default Value</th>
-    		</tr>
-    	</thead>
-    	<tbody>
-    		<tr>
-    			<td class="u-width-md">wisp-scroll-min-width</td>
-    			<td>40em</td>
-    		</tr>      		 	 											    
-    	</tbody>
-    </table>
-</div>
-
 <div class="c-box c-box--border u-margin-block-end-md">
 	<h2 class="u-type-xl">c-dialog</h2>
      <table class="c-table c-table--border-rows">
@@ -382,6 +362,26 @@ Module-specific properties defined inside their module.
     			<td>wisp-table-cell-inline-padding</td>
     			<td>var(--wisp-spacing-md)</td>
     		</tr>  				  		 											    
+    	</tbody>
+    </table>
+</div>
+
+<!--#c-table-wrapper-->
+
+<div class="c-box c-box--border u-margin-block-end-md">
+	<h2 class="u-type-xl">c-table-wrapper</h2>
+     <table class="c-table c-table--border-rows">
+    	<thead class="u-visually-hidden">
+    		<tr>
+    			<th>Property</th>
+    			<th>Default Value</th>
+    		</tr>
+    	</thead>
+    	<tbody>
+    		<tr>
+    			<td class="u-width-md">wisp-table-wrapper-min-width</td>
+    			<td>40em</td>
+    		</tr>      		 	 											    
     	</tbody>
     </table>
 </div>

@@ -1,0 +1,1 @@
+@layer behaviors{.b-scroll-reveal-hide{animation:wisp-scroll-reveal-hide 1ms linear both;animation-timeline:view();animation-range:entry 0% exit 100%}@keyframes wisp-scroll-reveal-hide{0%{opacity:0}25%,75%{opacity:1}to{opacity:0}}}

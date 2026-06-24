@@ -1,5 +1,5 @@
 ---
-title: Popover
+title: b-popover
 layout: sidebar.njk
 permalink: /b-popover.html
 ---

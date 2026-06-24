@@ -39,6 +39,7 @@
 @import "components/c-link-inline.css";
 @import "components/c-spinner.css";
 @import "components/c-table.css";
+@import "components/c-table-wrapper.css";
 
 /* ==========================================================================
    #behaviors
@@ -49,7 +50,7 @@
 @import "behaviors/b-press-scale.css";
 @import "behaviors/b-press-tint.css";
 @import "behaviors/b-press-outline.css";
-@import "behaviors/b-scroll.css";
+@import "behaviors/b-scroll-reveal.css";
 
 /* ==========================================================================
    #utilities

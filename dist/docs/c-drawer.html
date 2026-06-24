@@ -55,7 +55,7 @@
                           <a class="c-link-inline" href="/b-press-outline.html">Press-Outline</a>
                           <a class="c-link-inline" href="/b-press-scale.html">Press-Scale</a>
                           <a class="c-link-inline" href="/b-press-tint.html">Press-Tint</a>
-                          <a class="c-link-inline" href="/b-scroll.html">Scroll</a>
+                          <a class="c-link-inline" href="/b-scroll-reveal.html">Scroll-Reveal</a>
                       </div>
 
                     <div class="u-type-lg u-margin-block-end-sm"><strong>Utilities</strong></div>
@@ -110,6 +110,36 @@
 		Toggle Drawer
 	</button>
 <p><div id="sidebar" class="c-drawer">
+<div class="c-box">
+<p>This is a drawer component.</p>
+</div>
+</div></p>
+</div>
+<h2>Modifiers</h2>
+<h3>Right</h3>
+<p>Slides the drawer in from the right.</p>
+<pre><code>&lt;button class=&quot;c-button b-press-scale&quot; onclick=&quot;toggleClass('sidebar', 'is-open')&quot;&gt;
+	Toggle Drawer
+&lt;/button&gt;
+
+&lt;div id=&quot;sidebar&quot; class=&quot;c-drawer c-drawer--right&quot;&gt;
+	&lt;div class=&quot;c-box&quot;&gt;
+		&lt;p&gt;This is a drawer component.&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+	function toggleClass(id, className) {
+		document.getElementById(id).classList.toggle(className);
+	}
+&lt;/script&gt;
+
+</code></pre>
+<div class="c-doc-preview">
+	<button class="c-button b-press-scale" onclick="toggleClass('sidebar2', 'is-open')">
+		Toggle Drawer
+	</button>
+<p><div id="sidebar2" class="c-drawer c-drawer--right">
 <div class="c-box">
 <p>This is a drawer component.</p>
 </div>

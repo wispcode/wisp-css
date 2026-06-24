@@ -1,0 +1,75 @@
+/* ==========================================================================
+   o-cluster
+   ========================================================================== */
+
+/**
+ * Arranges items horizontally using consistent spacing.
+ *
+ * Example:
+ *
+ * <div class="o-cluster">
+ *    <div></div>
+ *    <div></div>
+ * </div>
+ */
+@layer objects {
+	.o-cluster {
+        display: flex;
+        flex-direction: row;
+        gap: var(--wisp-spacing-md);
+	}
+
+	/* --responsive ========================================================= */
+
+    .o-cluster--responsive {
+        flex-direction: column;
+    }
+
+    @media (min-width: 48rem) {
+        .o-cluster--responsive {
+            flex-direction: row;
+        }
+    }
+
+	/* --gap ================================================================ */
+
+	.o-cluster--gap-sm {
+		gap: var(--wisp-spacing-sm);
+	}
+
+	.o-cluster--gap-lg {
+		gap: var(--wisp-spacing-lg);
+	}
+
+	/* --align ============================================================== */
+
+    .o-cluster--align-start {
+		align-items: flex-start;
+	}
+
+    .o-cluster--align-center {
+		align-items: center;
+	}
+
+    .o-cluster--align-end {
+		align-items: flex-end;
+	}
+
+	/* --justify ============================================================ */
+
+	.o-cluster--justify-center {
+		justify-content: center;
+	}
+
+    .o-cluster--justify-end {
+		justify-content: flex-end;
+	}
+
+	.o-cluster--justify-around {
+		justify-content: space-around;
+	}
+
+    .o-cluster--justify-between {
+		justify-content: space-between;
+	}
+}

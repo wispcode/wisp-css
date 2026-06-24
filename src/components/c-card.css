@@ -1,0 +1,59 @@
+/* ==========================================================================
+   c-card
+   ========================================================================== */
+
+/**
+ *  Arranges content in a contained card layout.
+ *
+ * Example:
+ *
+ * <div class="c-card">
+ *    <div class="c-card__image"></div>
+ *    <div class="c-card__head"></div>
+ *    <div class="c-card__body"></div>
+ *    <div class="c-card__foot"></div>
+ * </div>
+ */
+@layer components {
+  	.c-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .c-card__head,
+    .c-card__body,
+    .c-card__foot {
+        display: flex;
+        flex-direction: column;
+        row-gap: var(--wisp-spacing-md);
+        padding: var(--wisp-spacing-md);
+    }
+
+    /* Rely on row-gap. */
+
+    .c-card__head > *,
+    .c-card__body > *,
+    .c-card__foot > * {
+        margin-block: 0;
+    }
+
+    .c-card__image {
+        display: block;
+        width: 100%;
+    }
+
+	/* --border ============================================================== */
+
+    .c-card--border {
+        border-width: 1px;
+        border-style: solid;
+        border-color: var(--wisp-color-border);
+    }
+
+	/* --round ============================================================== */
+
+   .c-card--round {
+        border-radius: var(--wisp-radius-md);
+        overflow: hidden;
+    }
+}

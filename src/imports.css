@@ -1,64 +1,66 @@
-/*  ========================================================================
-    #preflight 
-    ======================================================================== */
+/* ==========================================================================
+   #preflight
+   ========================================================================== */
 
 @import "preflight.css";
 
-/*  ========================================================================
-    #foundation
-    ======================================================================== */
- 
+/* ==========================================================================
+   #foundation
+   ========================================================================== */
+
 @import "foundation.css";
 
-/*  ========================================================================
-    #objects
-    ======================================================================== */
+/* ==========================================================================
+   #objects
+   ========================================================================== */
 
-@import "objects/objects.container.css";
-@import "objects/objects.grid.css";
-@import "objects/objects.stack.css";
-@import "objects/objects.cluster.css";
-@import "objects/objects.media.css";
-@import "objects/objects.pair.css";
-@import "objects/objects.ratio.css";
-@import "objects/objects.link-block.css";
-@import "objects/objects.link-inline.css";
+@import "objects/o-cluster.css";
+@import "objects/o-container.css";
+@import "objects/o-grid.css";
+@import "objects/o-media.css";
+@import "objects/o-pair.css";
+@import "objects/o-ratio.css";
+@import "objects/o-stack.css";
 
-/*  ========================================================================
-    #behaviors
-    ======================================================================== */
+/* ==========================================================================
+   #components
+   ========================================================================== */
 
-@import "behaviors/behaviors.press.css";
-@import "behaviors/behaviors.scroll.css";
-@import "behaviors/behaviors.transition.css";
-@import "behaviors/behaviors.popover.css";
-@import "behaviors/behaviors.sticky.css";
-@import "behaviors/behaviors.tint.css";
+@import "components/c-badge.css";
+@import "components/c-box.css";
+@import "components/c-button.css";
+@import "components/c-button-group.css";
+@import "components/c-card.css";
+@import "components/c-dialog.css";
+@import "components/c-drawer.css";
+@import "components/c-input.css";
+@import "components/c-input-addin.css";
+@import "components/c-link-block.css";
+@import "components/c-link-inline.css";
+@import "components/c-spinner.css";
+@import "components/c-table.css";
 
-/*  ========================================================================
-    #components
-    ======================================================================== */
+/* ==========================================================================
+   #behaviors
+   ========================================================================== */
 
-@import "components/components.dialog.css";
-@import "components/components.drawer.css";
-@import "components/components.card.css";
-@import "components/components.box.css";
-@import "components/components.badge.css";
-@import "components/components.table.css";
-@import "components/components.button.css";
-@import "components/components.button-group.css";
-@import "components/components.input.css";
-@import "components/components.input-addin.css";
-@import "components/components.spinner.css";
+@import "behaviors/b-popover.css";
+@import "behaviors/b-press-elevate.css";
+@import "behaviors/b-press-scale.css";
+@import "behaviors/b-press-tint.css";
+@import "behaviors/b-press-outline.css";
+@import "behaviors/b-scroll.css";
 
-/*  ========================================================================
-    #utilities
-    ======================================================================== */
- 
-@import "utilities/utilities.margin.css";
-@import "utilities/utilities.type.css";
-@import "utilities/utilities.color.css";
-@import "utilities/utilities.text.css";
-@import "utilities/utilities.width.css";
-@import "utilities/utilities.hidden.css";
-@import "utilities/utilities.visually-hidden.css";
+/* ==========================================================================
+   #utilities
+   ========================================================================== */
+
+@import "utilities/u-color.css";
+@import "utilities/u-hidden-below.css";
+@import "utilities/u-margin.css";
+@import "utilities/u-position-sticky.css";
+@import "utilities/u-text.css";
+@import "utilities/u-type.css";
+@import "utilities/u-visible-below.css";
+@import "utilities/u-visually-hidden.css";
+@import "utilities/u-width.css";

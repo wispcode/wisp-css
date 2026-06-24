@@ -1,0 +1,37 @@
+/* ==========================================================================
+   b-press-scale
+   ========================================================================== */
+
+/**
+ * Scales an element on a hover and active state.
+ *
+ * Example:
+ *
+ * <button class="c-button b-press-tint"></button>
+ */
+:root {
+    --wisp-outline-color: var(--wisp-color-primary);
+    --wisp-outline-width: 2px;
+    --wisp-outline-offset: 2px;
+}
+
+@layer behaviors {
+    .b-press-outline {
+		transition-property: transform;
+		transition-duration: 200ms;
+		transition-timing-function: ease-out;
+    }
+
+    .b-press-outline:hover,
+	.b-press-outline:active {
+		outline-width: var(--wisp-outline-width);
+        outline-offset: var(--wisp-outline-width);
+		outline-style: solid;
+		outline-color: var(--wisp-outline-color);
+    }
+
+	.b-press-outline:disabled,
+	.b-press-outline[aria-disabled="true"]  {
+        transform: none;
+	}
+}

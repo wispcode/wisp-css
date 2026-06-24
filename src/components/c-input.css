@@ -1,0 +1,22 @@
+/* ==========================================================================
+   c-input
+   ========================================================================== */
+
+/**
+* Applies styles to create a input field
+*
+* Example:
+*
+* <input type="text" class="c-input">
+*/
+@layer components {
+   .c-input {
+	   box-sizing: border-box; /* Fix for browsers that reapply UA styles */
+	   padding-block: var(--wisp-spacing-sm);
+	   padding-inline: var(--wisp-spacing-md);
+	   border-width: 1px;
+	   border-style: solid;
+	   border-color: var(--wisp-color-border);
+	   border-radius: var(--wisp-radius-sm);
+   }
+}

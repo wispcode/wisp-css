@@ -1,0 +1,31 @@
+/* ==========================================================================
+   o-stack
+   ========================================================================== */
+
+/**
+ * Arrange items vertically with consistent spacing.
+ *
+ * Example:
+ *
+ * <div class="o-stack">
+ *    <div></div>
+ *    <div></div>
+ * </div>
+ */
+@layer objects {
+    .o-stack {
+        display: flex;
+        flex-direction: column;
+        row-gap: var(--wisp-spacing-md);
+    }
+
+	/* --gap ================================================================ */
+
+	.o-stack--gap-sm {
+		row-gap: var(--wisp-spacing-sm);
+	}
+
+	.o-stack--gap-lg {
+		row-gap: var(--wisp-spacing-lg);
+	}
+}

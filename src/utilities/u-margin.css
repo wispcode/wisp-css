@@ -1,0 +1,32 @@
+/* ==========================================================================
+   u-margin
+   ========================================================================== */
+
+/**
+ * Sets a margin-block-end on an element.
+ */
+@layer utilities {
+	.u-margin-block-end-none {
+		margin-block-end: 0;
+	}
+
+	.u-margin-block-end-xs {
+		margin-block-end: var(--wisp-spacing-xs);
+	}
+
+	.u-margin-block-end-sm {
+		margin-block-end: var(--wisp-spacing-sm);
+	}
+
+	.u-margin-block-end-md {
+		margin-block-end: var(--wisp-spacing-md);
+	}
+
+	.u-margin-block-end-lg {
+		margin-block-end: var(--wisp-spacing-lg);
+	}
+
+	.u-margin-block-end-xl {
+		margin-block-end: var(--wisp-spacing-xl);
+	}
+}

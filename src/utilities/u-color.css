@@ -1,0 +1,28 @@
+/* ==========================================================================
+   u-color
+   ========================================================================== */
+
+/**
+ * Sets a background-color and a text color on an element.
+ */
+@layer utilities {
+	.u-color-primary {
+        color: var(--wisp-color-primary-text);
+        background-color: var(--wisp-color-primary);
+     }
+
+	.u-color-secondary {
+        color: var(--wisp-color-secondary-text);
+		background-color: var(--wisp-color-secondary);
+    }
+
+    .u-color-neutral {
+        color: var(--wisp-color-neutral-text);
+        background-color: var(--wisp-color-neutral);
+    }
+
+    .u-color-surface {
+        color: var(--wisp-color-surface-text);
+        background-color: var(--wisp-color-surface);
+    }
+}

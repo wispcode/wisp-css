@@ -1,0 +1,24 @@
+/* ==========================================================================
+   u-text
+   ========================================================================== */
+
+/**
+ * Sets common text styles.
+ */
+@layer utilities {
+	.u-text-align-start {
+		text-align: start;
+	}
+
+	.u-text-align-center  {
+		text-align: center;
+	}
+
+	.u-text-align-end {
+		text-align: end;
+	}
+
+	.u-text-muted {
+		 color: var(--wisp-text-muted-color);
+ 	}
+}

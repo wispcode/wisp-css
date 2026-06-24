@@ -1,0 +1,29 @@
+/* ==========================================================================
+   c-link-inline
+   ========================================================================== */
+
+/**
+ * Applies an inline text link style.
+ *
+ * Example:
+ *
+ * <a class="c-link-inline"></a>
+ */
+@layer components {
+	.c-link-inline {
+        text-decoration-line: none;
+        color: inherit;
+    }
+
+	.c-link-inline:hover,
+	.c-link-inline:focus-visible {
+        text-decoration-line: underline;
+    }
+
+	/* --quiet ============================================================== */
+
+	.c-link-inline--quiet:hover,
+	.c-link-inline--quiet:focus-visible {
+        text-decoration-line: none;
+    }
+}

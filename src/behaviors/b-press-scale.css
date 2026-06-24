@@ -1,0 +1,31 @@
+/* ==========================================================================
+   b-press-scale
+   ========================================================================== */
+
+/**
+ * Scales an element on a hover and active state.
+ *
+ * Example:
+ *
+ * <button class="c-button b-press-tint"></button>
+ */
+@layer behaviors {
+    .b-press-scale {
+		transition-property: transform;
+		transition-duration: 200ms;
+		transition-timing-function: ease-out;
+    }
+
+    .b-press-scale:hover {
+		transform: scale(1.02);
+    }
+
+    .b-press-scale:active {
+ 		transform: scale(0.95);
+    }
+
+	.b-press-scale:disabled,
+	.b-press-scale[aria-disabled="true"]  {
+        transform: none;
+	}
+}

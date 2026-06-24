@@ -1,0 +1,82 @@
+/* ==========================================================================
+   o-media
+   ========================================================================== */
+
+/**
+ * Aligns an image next to content.
+ *
+ * Example:
+ *
+ * <div class="o-media">
+ *     <div class="o-media__image">
+ *          <img>
+ *     </div>
+ *     <div class="o-media__content"></div>
+ * </div>
+ */
+@layer media {
+	.o-media {
+		display: flex;
+		gap: var(--wisp-spacing-md);
+	}
+
+    .o-media__content {
+        flex: 1;
+    }
+
+		.o-media--gap-sm {
+		gap: var(--wisp-spacing-sm);
+	}
+
+	.o-media--gap-lg {
+		gap: var(--wisp-spacing-lg);
+	}
+
+	.o-media__content,
+    .o-media__content > :last-child {
+        margin-block-end: 0;
+    }	
+
+	/* --responsive ========================================================= */
+
+	.o-media--responsive {
+		flex-direction: column;
+	}
+
+	@media (min-width: 48rem) {
+		.o-media--responsive {
+			flex-direction: row;
+		}
+	}
+
+	/* --reverse ============================================================ */
+
+	@media (min-width: 48rem) {
+		.o-media--reverse > .o-media__image {
+			order: 1;
+		}
+	}
+	/* --gap ================================================================ */
+
+	.o-media--gap-sm {
+		gap: var(--wisp-spacing-sm);
+	}
+
+	.o-media--gap-lg {
+		gap: var(--wisp-spacing-lg);
+	}
+
+	@media (min-width: 48rem) {
+		.o-media--align-start {
+			align-items: flex-start;
+		}
+
+		.o-media--align-center {
+			align-items: center;
+		}
+
+		.o-media--align-end {
+			align-items: flex-end;
+		}
+	}
+}

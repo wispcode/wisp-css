@@ -2,9 +2,9 @@
 
 A spirited framework that won't haunt your website.
 
-![Version](https://img.shields.io/badge/version-2.1.0-blue)
+![Version](https://img.shields.io/badge/version-3.0.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![Size](https://img.shields.io/github/size/wispcode/wisp-css/dist/wisp.min.css)
+![Size](https://img.shields.io/github/size/wispcode/wisp-css/dist/bundle.min.css)
 
 ------
 
@@ -12,6 +12,7 @@ A spirited framework that won't haunt your website.
 
 - Modular. Use only what you need.
 - Extendable with cascade layers.
+- Interactions are a reusable pattern.
 - No preprocessor required.
 - No settings file. Sensible defaults via CSS variables.
 
@@ -28,4 +29,3 @@ For questions, best practices, and feature discussion:
 ## Contributing
 
 If you would like to contribute to the development, please read the [Contributing Guidelines](CONTRIBUTING.md) before submitting a pull request.
- 

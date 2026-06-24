@@ -1,0 +1,1 @@
+@layer behaviors{.b-press-tint{position:relative;isolation:isolate}.b-press-tint:after{content:"";position:absolute;inset:0;background:#000;opacity:0;pointer-events:none;transition-property:opacity;transition-duration:.14s;transition-timing-function:ease-out}.b-press-tint:hover:after{opacity:.08}.b-press-tint:active:after{opacity:.16}}

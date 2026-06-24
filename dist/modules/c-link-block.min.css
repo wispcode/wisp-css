@@ -1,0 +1,1 @@
+@layer components{.c-link-block{display:inline-block;padding-block:var(--wisp-spacing-sm);padding-inline:var(--wisp-spacing-md);text-decoration-line:none;color:inherit}.c-link-block__icon{padding-inline-end:var(--wisp-spacing-sm)}.c-link-block--spacing-sm{padding-inline:var(--wisp-spacing-sm)}.c-link-block--spacing-lg{padding-inline:var(--wisp-spacing-lg)}}

@@ -1,0 +1,1 @@
+@layer objects{.o-ratio{display:block;overflow:hidden}.o-ratio--1-1{aspect-ratio:1 / 1}.o-ratio--4-3{aspect-ratio:4 / 3}.o-ratio--16-9{aspect-ratio:16 / 9}.o-ratio--21-9{aspect-ratio:21 / 9}.o-ratio--cover .o-ratio__content{width:100%;height:100%;object-fit:cover}}

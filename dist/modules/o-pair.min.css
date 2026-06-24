@@ -1,0 +1,1 @@
+@layer objects{.o-pair{display:grid;row-gap:var(--wisp-spacing-sm);column-gap:var(--wisp-spacing-md);grid-template-columns:max-content 1fr}.o-pair--responsive{grid-template-columns:1fr}@media(min-width:48rem){.o-pair--responsive{grid-template-columns:max-content 1fr}}.o-pair--gap-sm{column-gap:var(--wisp-spacing-sm)}.o-pair--gap-lg{column-gap:var(--wisp-spacing-lg)}}

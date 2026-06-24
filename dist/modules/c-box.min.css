@@ -1,0 +1,1 @@
+@layer components{.c-box{display:block;padding:var(--wisp-spacing-md)}.c-box>:last-child{margin-block-end:0}.c-box--spacing-sm{padding:var(--wisp-spacing-sm)}.c-box--spacing-lg{padding:var(--wisp-spacing-lg)}.c-box--border{border-width:1px;border-style:solid;border-color:var(--wisp-color-border-subtle)}.c-box--round{border-radius:var(--wisp-radius-md);overflow:hidden}}

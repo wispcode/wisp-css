@@ -1,6 +1,6 @@
 ![Wisp CSS Logo](./images/wisp-black-logo.png)
 
-A spirited framework that won't haunt your website.
+A spirited modular framework that won't haunt your website.
 
 ![Version](https://img.shields.io/badge/version-3.0.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-blue)

@@ -1,0 +1,35 @@
+/* ==========================================================================
+   b-scroll
+   ========================================================================== */
+
+/**
+ * Makes a container horizontally scrollable on small screens.
+ *
+ * Example:
+ *
+ * <div class="b-scroll">
+ *     <div class="b-scroll__content"></div>
+ * </div>
+ */
+:root {
+	--wisp-scroll-min-width: 40em;
+}
+
+@layer behaviors {
+    .b-scroll {
+        border-width: 1px;
+        border-style: solid;
+        border-color: var(--wisp-color-border);
+        overflow-x: auto;
+    }
+
+    .b-scroll__content {
+		min-width: var(--wisp-scroll-min-width);
+    }
+
+    @media (min-width: 48rem) {
+        .b-scroll {
+            border: none;
+        }
+    }
+}

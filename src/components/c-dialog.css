@@ -1,0 +1,35 @@
+/* ==========================================================================
+   c-dialog
+   ========================================================================== */
+
+/**
+ * Applies visual styles to the native <dialog> element.
+ *
+ * Example:
+ *
+ * <dialog class="c-dialog">
+ * </dialog>
+ */
+:root {
+	--wisp-dialog-max-width: 560px;
+	--wisp-dialog-box-shadow: 0 8px 24px rgba(0, 0, 0, 0.20);
+}
+
+@layer components {
+	.c-dialog {
+		width: 90%;
+		max-width: var(--wisp-dialog-max-width);
+        border-radius: var(--wisp-radius-lg);
+		box-shadow: var(--wisp-dialog-box-shadow);
+		color: var(--wisp-color-surface-text);
+		background-color: var(--wisp-color-surface);
+	}
+
+	.c-dialog::backdrop {
+		background-color: rgb(0 0 0 / 0.5);
+	}
+
+	.c-dialog:focus-visible {
+        outline: none;
+	}
+}

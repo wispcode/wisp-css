@@ -1,0 +1,68 @@
+/* ==========================================================================
+   c-table
+   ========================================================================== */
+
+/**
+ * Applies styles to create a table
+ *
+ * Example:
+ *
+ * <table class="c-table">
+ *     <thead>
+ *         <tr>
+ *             <th></th>
+ *             <th></th>
+ *             <th></th>
+ *         </tr>
+ *     </thead>
+ *     <tbody>
+ *         <tr>
+ *             <td></td>
+ *             <td></td>
+ *             <td></td>
+ *         </tr>
+ *     </tbody>
+ * </table>
+ */
+:root {
+	--wisp-table-border-color: var(--wisp-color-border-subtle);
+	--wisp-table-stripe-color: #f1f5f9;
+	--wisp-table-cell-block-padding: var(--wisp-spacing-sm);
+	--wisp-table-cell-inline-padding: var(--wisp-spacing-md);
+}
+
+@layer components {
+    .c-table {
+        width: 100%;
+    }
+
+    .c-table th,
+    .c-table td {
+        padding-block: var(--wisp-table-cell-block-padding);
+        padding-inline: var(--wisp-table-cell-inline-padding);
+        text-align: start;
+    }
+
+	/* --border-cells ======================================================= */
+
+    .c-table--border-cells th,
+    .c-table--border-cells td {
+        border-width: 1px;
+        border-style: solid;
+        border-color: var(--wisp-table-border-color);
+    }
+
+	/* --border-rows ======================================================== */
+
+    .c-table--border-rows td {
+        border-block-start-width: 1px;
+        border-block-start-style: solid;
+        border-block-start-color: var(--wisp-table-border-color);
+    }
+
+	/* --stripe ============================================================= */
+
+	.c-table--stripe tr:nth-child(even) td {
+		background-color: var(--wisp-table-stripe-color);
+	}
+}

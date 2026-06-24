@@ -13,7 +13,7 @@ A spirited modular framework that won't haunt your website.
 - Modular. Use only what you need.
 - Extendable with cascade layers.
 - Interactions are a reusable pattern.
-- No preprocessor required.
+- No build tools required.
 - No settings file. Sensible defaults via CSS variables.
 
 ## Documentation

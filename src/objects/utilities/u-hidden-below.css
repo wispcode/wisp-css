@@ -1,0 +1,25 @@
+/* ==========================================================================
+   #u-hidden-below
+   ========================================================================== */
+
+@layer utilities {
+	/**
+	 * Hides an element when it's below the specified breakpoint.
+	 */
+	.u-hidden-below-md,
+	.u-hidden-below-lg {
+		display: none;
+	}
+
+	@media (min-width: 48rem) {
+		.u-hidden-below-md {
+			display: revert;
+		}
+	}
+
+	@media (min-width: 64rem) {
+		.u-hidden-below-lg {
+			display: revert;
+		}
+	}
+}

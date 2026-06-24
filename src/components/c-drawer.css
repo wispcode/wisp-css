@@ -28,7 +28,7 @@
 
 	.c-drawer--right {
 		left: auto;
-		right: auto;
+		right: 0;
 		transform: translateX(100%);
 		box-shadow: -4px 0 12px var(--wisp-color-border);
 	}

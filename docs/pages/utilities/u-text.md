@@ -1,5 +1,5 @@
 ---
-title: Text
+title: Text - Wisp CSS
 layout: sidebar.njk
 permalink: /u-text.html
 ---

@@ -1,5 +1,5 @@
 ---
-title: Button Group
+title: Button Group - Wisp CSS
 layout: sidebar.njk
 permalink: /c-button-group.html
 ---

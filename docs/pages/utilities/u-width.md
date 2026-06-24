@@ -1,5 +1,5 @@
 ---
-title: Width
+title: Width - Wisp CSS
 layout: sidebar.njk
 permalink: /u-width.html
 ---

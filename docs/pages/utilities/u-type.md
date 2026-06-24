@@ -1,5 +1,5 @@
 ---
-title: Type
+title: Type - Wisp CSS
 layout: sidebar.njk
 permalink: /u-type.html
 ---

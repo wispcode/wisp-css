@@ -1,5 +1,5 @@
 ---
-title: Table Wrapper
+title: Table Wrapper - Wisp CSS
 layout: sidebar.njk
 permalink: /c-table-wrapper.html
 ---

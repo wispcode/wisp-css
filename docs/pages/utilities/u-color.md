@@ -1,5 +1,5 @@
 ---
-title: Color
+title: Color - Wisp CSS
 layout: sidebar.njk
 permalink: /u-color.html
 ---

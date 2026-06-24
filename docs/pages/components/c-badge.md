@@ -1,5 +1,5 @@
 ---
-title: Badge
+title: Badge - Wisp CSS
 layout: sidebar.njk
 permalink: /c-badge.html
 ---

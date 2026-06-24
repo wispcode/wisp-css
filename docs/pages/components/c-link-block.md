@@ -1,5 +1,5 @@
 ---
-title: Link-Block
+title: Link-Block - Wisp CSS
 layout: sidebar.njk
 permalink: /c-link-block.html
 ---

@@ -1,5 +1,5 @@
 ---
-title: Link-Inline
+title: Link-Inline - Wisp CSS
 layout: sidebar.njk
 permalink: /c-link-inline.html
 ---

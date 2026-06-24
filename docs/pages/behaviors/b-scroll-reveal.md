@@ -1,12 +1,12 @@
 ---
-title: Reveal
+title: Scroll-Reveal - Wisp CSS
 layout: sidebar.njk
 permalink: /b-scroll-reveal.html
 ---
 
 # Scroll-Reveal
 
-Makes a table scrollable on small screens.
+Reveals an element as it enters the viewport.
 
 ```
 <p>

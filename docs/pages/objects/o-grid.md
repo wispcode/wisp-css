@@ -1,5 +1,5 @@
 ---
-title: Grid
+title: Grid - Wisp CSS
 layout: sidebar.njk
 permalink: /o-grid.html
 ---

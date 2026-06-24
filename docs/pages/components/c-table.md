@@ -1,5 +1,5 @@
 ---
-title: Table
+title: Table - Wisp CSS
 layout: sidebar.njk
 permalink: /c-table.html
 ---

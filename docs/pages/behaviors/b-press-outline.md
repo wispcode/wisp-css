@@ -1,5 +1,5 @@
 ---
-title: Outline
+title: Press-Outline - Wisp CSS
 layout: sidebar.njk
 permalink: /b-press-outline.html
 ---

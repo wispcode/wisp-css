@@ -1,5 +1,5 @@
 ---
-title: Box
+title: Box - Wisp CSS
 layout: sidebar.njk
 permalink: /c-box.html
 ---

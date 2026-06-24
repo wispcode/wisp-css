@@ -1,5 +1,5 @@
 ---
-title: Container
+title: Container - Wisp CSS
 layout: sidebar.njk
 permalink: /o-container.html
 ---

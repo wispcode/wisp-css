@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Input Addin - Wisp CSS</title>
+        <title>Sticky - Wisp CSS</title>
         <link rel="stylesheet" href="/public/styles/bundle.min.css">
         <link rel="stylesheet" href="/public/styles/custom.full.css">
 
@@ -91,18 +91,31 @@
                 <main class="c-doc-layout__main">
                     <button id="js-menu-toggle" class="c-button u-margin-block-end-md u-visible-below-md"> Toggle Menu </button>
                     <div class="position:relative">
-                        <h1>Input Addin</h1>
-<p>Removes space and border-radius where an input and adjacent button meet.</p>
-<pre><code>&lt;div class=&quot;c-input-addin&quot;&gt;
-	&lt;input class=&quot;c-input&quot;&gt;
-	&lt;button class=&quot;c-button b-press-elevate&quot;&gt;Search&lt;/button&gt;
+                        <h1>Sticky</h1>
+<p>Makes an element stick to the top of the screen.</p>
+<pre><code>&lt;div class=&quot;u-sticky&quot;&gt;
+	&lt;div class=&quot;c-box u-color-primary&quot;&gt;Sticky Header&lt;/div&gt;
 &lt;/div&gt;
+
+&lt;p&gt;Paragraph&lt;/p&gt;
+&lt;p&gt;Paragraph&lt;/p&gt;
+&lt;p&gt;Paragraph&lt;/p&gt;
+&lt;p&gt;Paragraph&lt;/p&gt;
+&lt;p&gt;Paragraph&lt;/p&gt;
 </code></pre>
 <div class="c-doc-preview">
-	<div class="c-input-addin">
-		<input class="c-input">
-		<button class="c-button b-press-elevate">Search</button>
-	</div>
+	<div style="height: 200px; overflow-y: scroll;">
+		<div style="height: 600px;">
+			<div class="u-sticky">
+				<div class="c-box u-color-primary">Sticky Header</div>
+			</div>
+<p><p>Paragraph</p>
+<p>Paragraph</p>
+<p>Paragraph</p>
+<p>Paragraph</p>
+<p>Paragraph</p>
+</div>
+</div></p>
 </div>
 
                     </div>

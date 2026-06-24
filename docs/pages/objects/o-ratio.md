@@ -1,5 +1,5 @@
 ---
-title: Ratio
+title: Ratio - Wisp CSS
 layout: sidebar.njk
 permalink: /o-ratio.html
 ---

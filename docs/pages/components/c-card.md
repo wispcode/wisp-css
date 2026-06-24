@@ -1,5 +1,5 @@
 ---
-title: Card
+title: Card - Wisp CSS
 layout: sidebar.njk
 permalink: /c-card.html
 ---

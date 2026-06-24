@@ -1,5 +1,5 @@
 ---
-title: Stack
+title: Stack - Wisp CSS
 layout: sidebar.njk
 permalink: /o-stack.html
 ---

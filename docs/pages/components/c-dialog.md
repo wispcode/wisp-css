@@ -1,5 +1,5 @@
 ---
-title: Dialog
+title: Dialog - Wisp CSS
 layout: sidebar.njk
 permalink: /c-dialog.html
 ---

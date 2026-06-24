@@ -1,10 +1,10 @@
 ---
-title: b-popover
+title: Popover - Wisp CSS
 layout: sidebar.njk
 permalink: /b-popover.html
 ---
 
-# Popover
+# Popover 
 
 Anchors a popover below its trigger and flips up if space is limited.
 

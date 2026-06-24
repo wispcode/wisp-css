@@ -1,8 +1,8 @@
 ---
-title: Visible Below
+title: Visible Below - Wisp CSS
 layout: sidebar.njk
 permalink: /u-visible-below.html
---- 
+---
 
 # Visible Below
 

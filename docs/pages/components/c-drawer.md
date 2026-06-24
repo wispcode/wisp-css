@@ -1,5 +1,5 @@
 ---
-title: Drawer
+title: Drawer - Wisp CSS
 layout: sidebar.njk
 permalink: /c-drawer.html
 ---

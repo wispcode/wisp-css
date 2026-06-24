@@ -1,5 +1,5 @@
 ---
-title: Button
+title: Button - Wisp CSS
 layout: sidebar.njk
 permalink: /c-button.html
 ---

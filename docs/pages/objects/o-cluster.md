@@ -1,5 +1,5 @@
 ---
-title: Cluster
+title: Cluster - Wisp CSS
 layout: sidebar.njk
 permalink: /o-cluster.html
 ---

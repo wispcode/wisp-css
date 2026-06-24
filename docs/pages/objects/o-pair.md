@@ -1,5 +1,5 @@
 ---
-title: Pair
+title: Pair - Wisp CSS
 layout: sidebar.njk
 permalink: /o-pair.html
 ---

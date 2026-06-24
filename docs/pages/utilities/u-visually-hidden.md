@@ -1,5 +1,5 @@
 ---
-title: Visually Hidden
+title: Visually Hidden - Wisp CSS
 layout: sidebar.njk
 permalink: /u-visually-hidden.html
 ---

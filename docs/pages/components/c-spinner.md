@@ -1,5 +1,5 @@
 ---
-title: Spinner
+title: Spinner - Wisp CSS
 layout: sidebar.njk
 permalink: /c-spinner.html
 ---

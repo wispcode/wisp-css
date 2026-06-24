@@ -1,5 +1,5 @@
 ---
-title: Elevate
+title: Press-Elevate - WIsp CSS
 layout: sidebar.njk
 permalink: /b-press-elevate.html
 ---

@@ -1,5 +1,5 @@
 ---
-title: Margin
+title: Margin - Wisp CSS
 layout: sidebar.njk
 permalink: /u-margin.html
 ---

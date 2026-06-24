@@ -1,5 +1,5 @@
 ---
-title: Input Addin
+title: Input Addin - Wisp CSS
 layout: sidebar.njk
 permalink: /c-input-addin.html
 ---

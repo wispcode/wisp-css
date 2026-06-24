@@ -1,10 +1,10 @@
 ---
-title: Tint
+title: Press-Tint - Wisp CSS
 layout: sidebar.njk
 permalink: /b-press-tint.html
 ---
 
-# Tint
+# Press-Tint
 
 Tints an element on a hover and active state.
 

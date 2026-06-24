@@ -1,5 +1,5 @@
 ---
-title: Scale
+title: Press-Scale - Wisp CSS
 layout: sidebar.njk
 permalink: /b-press-scale.html
 ---

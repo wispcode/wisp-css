@@ -1,5 +1,5 @@
 ---
-title: Media
+title: Media - Wisp CSS
 layout: sidebar.njk
 permalink: /o-media.html
 ---

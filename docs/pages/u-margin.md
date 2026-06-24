@@ -1,0 +1,25 @@
+---
+title: Margin
+layout: sidebar.njk
+permalink: /u-margin.html
+---
+
+# Margin
+
+Sets a margin-block-end on an element.
+
+```
+<p class="u-margin-block-end-none">None</p>
+<p class="u-margin-block-end-sm">Small</p>
+<p class="u-margin-block-end-md">Medium</p>
+<p class="u-margin-block-end-lg">Large</p>
+<p class="u-margin-block-end-xl">Extra Large</p>
+```
+
+<div class="c-doc-preview">
+	<p class="u-margin-block-end-none">None</p>
+	<p class="u-margin-block-end-sm">Small</p>
+	<p class="u-margin-block-end-md">Medium</p>
+	<p class="u-margin-block-end-lg">Large</p>
+	<p class="u-margin-block-end-xl">Extra Large</p>
+</div>

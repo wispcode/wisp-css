@@ -1,0 +1,468 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Customizing</title>
+        <link rel="stylesheet" href="/public/styles/bundle.min.css">
+        <link rel="stylesheet" href="/public/styles/custom.full.css">
+
+
+    </head>
+    <body>
+        <div class="c-doc-layout">
+            <aside id="js-menu" class="c-doc-layout__sidebar">
+
+                <div class="c-box c-box--spacing-lg">
+                    <div class="u-type-lg u-margin-block-end-sm"><strong>Getting Started</strong></div>
+                    <div class="o-stack o-stack--gap-sm u-type-sm u-margin-block-end-md u-doc-padding-inline-start-md">
+                         <a class="c-link-inline" href="/guide-installing.html">Installing</a>
+                        <a class="c-link-inline" href="/guide-customizing.html">Customizing</a>
+                        <a class="c-link-inline" href="/guide-extending.html">Extending</a>
+                    </div>
+
+                    <div class="u-type-lg u-margin-block-end-sm"><strong>Objects</strong></div>
+                    <div class="o-stack o-stack--gap-sm u-type-sm u-margin-block-end-md u-doc-padding-inline-start-md">
+                        <a class="c-link-inline" href="/o-cluster.html">Cluster</a>
+                        <a class="c-link-inline" href="/o-container.html">Container</a>
+                        <a class="c-link-inline" href="/o-grid.html">Grid</a>
+                        <a class="c-link-inline" href="/o-media.html">Media</a>
+                        <a class="c-link-inline" href="/o-pair.html">Pair</a>
+                        <a class="c-link-inline" href="/o-ratio.html">Ratio</a>
+                        <a class="c-link-inline" href="/o-stack.html">Stack</a>
+                    </div>
+
+                    <div class="u-type-lg u-margin-block-end-sm"><strong>Components</strong></div>
+                    <div class="o-stack o-stack--gap-sm u-type-sm u-margin-block-end-md u-doc-padding-inline-start-md">
+                        <a class="c-link-inline" href="/c-badge.html">Badge</a>
+                        <a class="c-link-inline" href="/c-box.html">Box</a>
+                        <a class="c-link-inline" href="/c-button-group.html">Button Group</a>
+                        <a class="c-link-inline" href="/c-button.html">Button</a>
+                        <a class="c-link-inline" href="/c-card.html">Card</a>
+                        <a class="c-link-inline" href="/c-dialog.html">Dialog</a>
+                        <a class="c-link-inline" href="/c-drawer">Drawer</a>
+                        <a class="c-link-inline" href="/c-input-addin.html">Input Addin</a>
+                        <a class="c-link-inline" href="/c-input.html">Input</a>
+                        <a class="c-link-inline" href="/c-link-block.html">Link-Block</a>
+                        <a class="c-link-inline" href="/c-link-inline.html">Link-Inline</a>
+                        <a class="c-link-inline" href="/c-spinner.html">Spinner</a>
+                        <a class="c-link-inline" href="/c-table.html">Table</a>
+                    </div>
+
+                    <div class="u-type-lg u-margin-block-end-sm"><strong>Behaviors</strong></div>
+                      <div class="o-stack o-stack--gap-sm u-type-sm u-margin-block-end-md u-doc-padding-inline-start-md">
+                          <a class="c-link-inline" href="/b-popover.html">Popover</a>
+                          <a class="c-link-inline" href="/b-press-elevate.html">Press-Elevate</a>
+                          <a class="c-link-inline" href="/b-press-outline.html">Press-Outline</a>
+                          <a class="c-link-inline" href="/b-press-scale.html">Press-Scale</a>
+                          <a class="c-link-inline" href="/b-press-tint.html">Press-Tint</a>
+                          <a class="c-link-inline" href="/b-scroll.html">Scroll</a>
+                      </div>
+
+                    <div class="u-type-lg u-margin-block-end-sm"><strong>Utilities</strong></div>
+                    <div class="o-stack o-stack--gap-sm u-type-sm u-margin-block-end-md u-doc-padding-inline-start-md">
+                        <a class="c-link-inline" href="/u-color.html">Color</a>
+                        <a class="c-link-inline" href="/u-hidden-below.html">Hidden Below</a>
+                        <a class="c-link-inline" href="/u-margin.html">Margin</a>
+                        <a class="c-link-inline" href="/u-position-sticky.html">Sticky Position</a>
+                        <a class="c-link-inline" href="/u-text.html">Text</a>
+                        <a class="c-link-inline" href="/u-type.html">Type</a>
+                        <a class="c-link-inline" href="/u-visible-below.html">Visible Below</a>
+                        <a class="c-link-inline" href="/u-visually-hidden.html">Visually Hidden</a>
+                        <a class="c-link-inline" href="/u-width.html">Width</a>
+                    </div>
+
+                </div>
+            </aside>
+            <div id="js-layout-overlay" class="c-doc-layout__overlay"></div>
+            <div>
+                <header class="c-box c-box--spacing-lg u-color-primary">
+                    <div class="o-cluster o-cluster--align-center o-cluster--justify-between">
+                        <a class="c-link-inline" href="/"><strong>Wisp CSS</strong></a>
+                        <a href="https://github.com/wispcode/wisp-css/">
+                            <img src="/public/images/github-logo-sm.svg" alt="GitHub Logo">
+                        </a>
+                    </div>
+                </header>
+                <main class="c-doc-layout__main">
+                    <button id="js-menu-toggle" class="c-button u-margin-block-end-md u-visible-below-md"> Toggle Menu </button>
+                    <div class="position:relative">
+                        <h1>Customizing</h1>
+<p>Wisp does not ship with a settings file by design. Instead, it uses sensible
+defaults that you can overwrite when you are ready to make it your own.</p>
+<pre><code>:root {
+	--wisp-color-primary: 		#111111;
+	--wisp-color-primary-text: 	#ffffff;
+}
+</code></pre>
+<hr>
+<h2>Preflight Properties</h2>
+<p>Global properties defined in preflight.css</p>
+<div class="c-box c-box--border u-margin-block-end-md">
+	<h2 class="u-type-xl">Colors</h2>
+ 	<table class="c-table c-table--border-rows">
+    	<thead class="u-visually-hidden">
+    		<tr>
+    			<th>Property</th>
+    			<th>Default Value</th>
+    		</tr>
+    	</thead>
+    	<tbody>
+    		<tr>
+    			<td class="u-width-md">wisp-color-primary</td>
+    			<td>#1d4ed8</td>
+    		</tr>
+    		<tr>
+    			<td>wisp-color-primary-text</td>
+    			<td>#ffffff</td>
+    		</tr>
+    		<tr>
+    			<td>wisp-color-secondary</td>
+    			<td>#475569</td>
+    		</tr>
+    		<tr>
+    			<td>wisp-color-secondary-text</td>
+    			<td>#ffffff</td>
+    		</tr>
+    		<tr>
+    			<td>wisp-color-neutral</td>
+    			<td>#f1f5f9</td>
+    		</tr>
+    		<tr>
+    			<td>wisp-color-neutral-text</td>
+    			<td>#0f172a</td>
+    		</tr>
+    		<tr>
+    			<td>wisp-color-surface</td>
+    			<td>#ffffff</td>
+    		</tr>
+    		<tr>
+    			<td>wisp-color-surface-text</td>
+    			<td>#0f172a</td>
+    		</tr>
+    		<tr>
+    			<td>wisp-color-border</td>
+    			<td>#cbd5e1</td>
+    		</tr>
+     		<tr>
+     			<td>wisp-color-border-subtle</td>
+     			<td>#e2e8f0</td>
+     		</tr>
+    		<tr>
+    			<td>wisp-color-focus</td>
+    			<td>#3b82f6</td>
+    		</tr>      
+    	</tbody>
+    </table>
+</div>
+<!--#spacing-->
+<div class="c-box c-box--border u-margin-block-end-md">
+	<h2 class="u-type-xl">Spacing</h2>
+     <table class="c-table c-table--border-rows">
+    	<thead class="u-visually-hidden">
+    		<tr>
+    			<th>Property</th>
+    			<th>Default Value</th>
+    		</tr>
+    	</thead>
+    	<tbody>
+    		<tr>
+    			<td class="u-width-md">wisp-spacing-xs</td>
+    			<td>0.25rem</td>
+    		</tr>
+    		<tr>
+    			<td>wisp-spacing-sm</td>
+    			<td>0.5rem</td>
+    		</tr>
+    		<tr>
+    			<td>wisp-spacing-md</td>
+    			<td>1rem</td>
+    		</tr>
+    		<tr>
+    			<td>wisp-spacing-lg</td>
+    			<td>1.5rem</td>
+    		</tr>
+    		<tr>
+    			<td>wisp-spacing-xl</td>
+    			<td>2rem</td>
+    		</tr>    		    
+    	</tbody>
+    </table>
+</div>
+<!--#border-radius-->
+<div class="c-box c-box--border u-margin-block-end-md">
+	<h2 class="u-type-xl">Border Radius</h2>
+     <table class="c-table c-table--border-rows">
+    	<thead class="u-visually-hidden">
+    		<tr>
+    			<th>Property</th>
+    			<th>Default Value</th>
+    		</tr>
+    	</thead>
+    	<tbody>
+    		<tr>
+    			<td class="u-width-md">wisp-radius-sm</td>
+    			<td>4px</td>
+    		</tr>
+    		<tr>
+    			<td>wisp-radius-md</td>
+    			<td>6px</td>
+    		</tr>
+    		<tr>
+    			<td>wisp-radius-lg</td>
+    			<td>8px</td>
+    		</tr> 		    
+    	</tbody>
+    </table>
+</div>
+<!--#font-weight-->
+<div class="c-box c-box--border u-margin-block-end-md">
+	<h2 class="u-type-xl">Font Weight</h2>
+     <table class="c-table c-table--border-rows">
+    	<thead class="u-visually-hidden">
+    		<tr>
+    			<th>Property</th>
+    			<th>Default Value</th>
+    		</tr>
+    	</thead>
+    	<tbody>
+    		<tr>
+    			<td class="u-width-md">wisp-font-weight-light</td>
+    			<td>400</td>
+    		</tr>
+    		<tr>
+    			<td>wisp-font-weight-medium</td>
+    			<td>500</td>
+    		</tr>
+    		<tr>
+    			<td>wisp-font-weight-semibold</td>
+    			<td>600</td>
+    		</tr>
+    		<tr>
+    			<td>wisp-font-weight-bold</td>
+    			<td>700</td>
+    		</tr> 			    
+    	</tbody>
+    </table>
+</div>
+<!--#font-size-->
+<div class="c-box c-box--border u-margin-block-end-md">
+	<h2 class="u-type-xl">Font Size</h2>
+     <table class="c-table c-table--border-rows">
+    	<thead class="u-visually-hidden">
+    		<tr>
+    			<th>Property</th>
+    			<th>Default Value</th>
+    		</tr>
+    	</thead>
+    	<tbody>
+    		<tr>
+    			<td class="u-width-md">wisp-font-size-sm</td>
+    			<td>0.875</td>
+    		</tr>
+    		<tr>
+    			<td>wisp-font-size-md</td>
+    			<td>1rem</td>
+    		</tr>
+    		<tr>
+    			<td>wisp-font-size-lg</td>
+    			<td>1.125rem</td>
+    		</tr>
+    		<tr>
+    			<td>wisp-font-size-xl</td>
+    			<td>1.25</td>
+    		</tr>
+    		<tr>
+    			<td>wisp-font-size-2xl</td>
+    			<td>1.5</td>
+    		</tr> 	
+    		<tr>
+    			<td>wisp-font-size-3xl</td>
+    			<td>1.875</td>
+    		</tr>
+    		<tr>
+    			<td>wisp-font-size-4xl</td>
+    			<td>2.25rem</td>
+    		</tr>
+    		<tr>
+    			<td>wisp-font-size-5xl</td>
+    			<td>3rem</td>
+    		</tr> 												    
+    	</tbody>
+    </table>
+</div>
+<hr>
+<h2>Module-Specific</h2>
+<p>Module-specific properties defined inside their module.</p>
+<!--#foundation-->
+<div class="c-box c-box--border u-margin-block-end-md">
+	<h2 class="u-type-xl">Foundation</h2>
+     <table class="c-table c-table--border-rows">
+    	<thead class="u-visually-hidden">
+    		<tr>
+    			<th>Property</th>
+    			<th>Default Value</th>
+    		</tr>
+    	</thead>
+    	<tbody>
+    		<tr>
+    			<td class="u-width-md">wisp-font-family</td>
+    			<td>sans-serif</td>
+    		</tr>  
+    		<tr>
+    			<td class="u-width-md">wisp-line-height</td>
+    			<td>1.5</td>
+    		</tr>    
+    		<tr>
+    			<td class="u-width-md">wisp-link-color</td>
+    			<td>var(--wisp-color-primary)</td>
+    		</tr>    	 											    
+    	</tbody>
+    </table>
+</div>
+<!--#b-press-elevate-->
+<div class="c-box c-box--border u-margin-block-end-md">
+	<h2 class="u-type-xl">b-press-elevate</h2>
+     <table class="c-table c-table--border-rows">
+    	<thead class="u-visually-hidden">
+    		<tr>
+    			<th>Property</th>
+    			<th>Default Value</th>
+    		</tr>
+    	</thead>
+    	<tbody>
+    		<tr>
+    			<td class="u-width-md">wisp-elevate-color</td>
+    			<td>rgba(0, 0, 0, 0.10)</td>
+    		</tr>  
+    		<tr>
+    			<td class="u-width-md">wisp-elevate-color-hover</td>
+    			<td>rgba(0, 0, 0, 0.12)</td>
+    		</tr>    
+    		<tr>
+    			<td class="u-width-md">wisp-elevate-color-active</td>
+    			<td>rgba(0, 0, 0, 0.16)</td>
+    		</tr>    	 											    
+    	</tbody>
+    </table>
+</div>
+<!--#b-press-outline-->
+<div class="c-box c-box--border u-margin-block-end-md">
+	<h2 class="u-type-xl">b-press-outline</h2>
+     <table class="c-table c-table--border-rows">
+    	<thead class="u-visually-hidden">
+    		<tr>
+    			<th>Property</th>
+    			<th>Default Value</th>
+    		</tr>
+    	</thead>
+    	<tbody>
+    		<tr>
+    			<td class="u-width-md">wisp-outline-color</td>
+    			<td>var(--wisp-color-primary)/td>
+    		</tr>
+    		<tr>
+    			<td>wisp-outline-offset</td>
+    			<td>2px</td>
+    		</tr>    
+    		<tr>
+    			<td>wisp-outline-width</td>
+    			<td>2px</td>
+    		</tr> 					 											    
+    	</tbody>
+    </table>
+</div>
+<!--#b-scroll-->
+<div class="c-box c-box--border u-margin-block-end-md">
+	<h2 class="u-type-xl">b-press-scroll</h2>
+     <table class="c-table c-table--border-rows">
+    	<thead class="u-visually-hidden">
+    		<tr>
+    			<th>Property</th>
+    			<th>Default Value</th>
+    		</tr>
+    	</thead>
+    	<tbody>
+    		<tr>
+    			<td class="u-width-md">wisp-scroll-min-width</td>
+    			<td>40em</td>
+    		</tr>      		 	 											    
+    	</tbody>
+    </table>
+</div>
+<div class="c-box c-box--border u-margin-block-end-md">
+	<h2 class="u-type-xl">c-dialog</h2>
+     <table class="c-table c-table--border-rows">
+    	<thead class="u-visually-hidden">
+    		<tr>
+    			<th>Property</th>
+    			<th>Default Value</th>
+    		</tr>
+    	</thead>
+    	<tbody>
+    		<tr>
+    			<td class="u-width-md">wisp-dialog-max-width</td>
+    			<td>560px</td>
+    		</tr>
+    		<tr>
+    			<td>wisp-dialog-box-shadow</td>
+    			<td>rgba(0, 0, 0, 0.20)</td>
+    		</tr>    		 											    
+    	</tbody>
+    </table>
+</div>
+<div class="c-box c-box--border u-margin-block-end-md">
+	<h2 class="u-type-xl">c-table</h2>
+     <table class="c-table c-table--border-rows">
+    	<thead class="u-visually-hidden">
+    		<tr>
+    			<th>Property</th>
+    			<th>Default Value</th>
+    		</tr>
+    	</thead>
+    	<tbody>
+    		<tr>
+    			<td class="u-width-md">wisp-table-border-color</td>
+    			<td>var(--wisp-color-border-subtle)</td>
+    		</tr>
+    		<tr>
+    			<td>wisp-table-stripe-color</td>
+    			<td>#f1f5f9</td>
+    		</tr>  
+    		<tr>
+    			<td>wisp-table-cell-block-padding</td>
+    			<td>var(--wisp-spacing-sm)</td>
+    		</tr>  
+    		<tr>
+    			<td>wisp-table-cell-inline-padding</td>
+    			<td>var(--wisp-spacing-md)</td>
+    		</tr>  				  		 											    
+    	</tbody>
+    </table>
+</div>
+<!--#c-container-->
+<div class="c-box c-box--border u-margin-block-end-md">
+	<h2 class="u-type-xl">c-container</h2>
+     <table class="c-table c-table--border-rows">
+    	<thead class="u-visually-hidden">
+    		<tr>
+    			<th>Property</th>
+    			<th>Default Value</th>
+    		</tr>
+    	</thead>
+    	<tbody>
+    		<tr>
+    			<td class="u-width-md">wisp-container-width</td>
+    			<td>1140px</td>
+    		</tr>    		 											    
+    	</tbody>
+    </table>
+</div>
+
+                    </div>
+                </main>
+            </div>
+        </div>
+        <script src="/public/scripts/sidebar.js"></script>
+        <script src="/public/scripts/demos.js"></script>
+  </body>
+</html>

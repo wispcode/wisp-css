@@ -6,6 +6,8 @@ permalink: /u-text.html
 
 # Text
 
+## Align 
+
 Sets the text alignment.
 
 ```

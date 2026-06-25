@@ -6,19 +6,15 @@
  * Sets common text styles.
  */
 @layer utilities {
-	.u-text-align-start {
+	.u-text-start {
 		text-align: start;
 	}
 
-	.u-text-align-center  {
+	.u-text-center  {
 		text-align: center;
 	}
 
-	.u-text-align-end {
+	.u-text-end {
 		text-align: end;
 	}
-
-	.u-text-muted {
-		 color: var(--wisp-text-muted-color);
- 	}
 }

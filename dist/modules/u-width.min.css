@@ -1,1 +1,1 @@
-@layer utilities{.u-width-xs{width:8rem}.u-width-sm{width:12rem}.u-width-md{width:16rem}.u-width-lg{width:24rem}.u-width-xl{width:32rem}.u-width-full{width:100%}.u-width-lg,.u-width-xl{max-width:100%}}
+@layer utilities{.u-width-xs{width:4rem}.u-width-sm{width:8rem}.u-width-md{width:16rem}.u-width-lg{width:32rem}.u-width-xl{width:64rem}.u-width-full{width:100%}.u-width-lg,.u-width-xl{max-width:100%}}

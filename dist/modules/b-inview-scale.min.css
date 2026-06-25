@@ -1,0 +1,1 @@
+@layer behaviors{.b-inview-scale{animation:wisp-scroll-scale 1ms linear both;animation-timeline:view();animation-range:entry 10% cover 30%}@keyframes wisp-inview-scale{0%{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}}

@@ -10,22 +10,22 @@
  * <div class="b-inview-reveal"></div>
  */
 @layer behaviors {
-    .b-scroll-reveal {
-        animation: wisp-scroll-reveal 1ms linear both;
+    .b-scroll-scale {
+        animation: wisp-scroll-scale 1ms linear both;
         animation-timeline: view();
         animation-range: entry 10% cover 30%;
     }
 
     /* --keyframes ========================================================== */
 
-    @keyframes wisp-scroll-reveal {
+    @keyframes wisp-scroll-scale {
         from {
             opacity: 0;
-            transform: translateY(.75rem);
+            transform: scale(.95);
         }
         to   {
             opacity: 1;
-            transform: translateY(0);
+            transform: scale(1);
         }
     }
 }

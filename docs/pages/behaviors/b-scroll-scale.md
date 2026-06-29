@@ -1,12 +1,12 @@
 ---
-title: Scroll-Reveal - Wisp CSS
+title: Scroll-Scale - Wisp CSS
 layout: sidebar.njk
-permalink: /b-scroll-reveal.html
+permalink: /b-scroll-scale.html
 ---
 
-# Scroll-Scale
+# Scroll-Reveal
 
-Reveals an element as it enters the viewport.
+Scales an element as it enters the viewport.
 
 ```
 <div class="c-box c-box--border">
@@ -15,7 +15,7 @@ Reveals an element as it enters the viewport.
 	<p>The quick brown fox jumped over the lazy dog.</p>
 	<p>The quick brown fox jumped over the lazy dog.</p>
 </div>
-<div class="c-box c-box--border b-scroll-reveal">
+<div class="c-box c-box--border b-scroll-scale">
 	<p>The quick brown fox jumped over the lazy dog.</p>
 	<p>The quick brown fox jumped over the lazy dog.</p>
 	<p>The quick brown fox jumped over the lazy dog.</p>
@@ -32,7 +32,7 @@ Reveals an element as it enters the viewport.
 		<p>The quick brown fox jumped over the lazy dog.</p>
 		<p>The quick brown fox jumped over the lazy dog.</p>
 	</div>
-	<div class="c-box c-box--border b-scroll-reveal">
+	<div class="c-box c-box--border b-scroll-scale">
 		<p>The quick brown fox jumped over the lazy dog.</p>
 		<p>The quick brown fox jumped over the lazy dog.</p>
 		<p>The quick brown fox jumped over the lazy dog.</p>
@@ -53,7 +53,7 @@ Makes the effect more subtle.
 	<p>The quick brown fox jumped over the lazy dog.</p>
 	<p>The quick brown fox jumped over the lazy dog.</p>
 </div>
-<div class="c-box c-box--border b-scroll-reveal b-scroll-reveal--subtle">
+<div class="c-box c-box--border b-scroll-scale b-scroll-scale--subtle">
 	<p>The quick brown fox jumped over the lazy dog.</p>
 	<p>The quick brown fox jumped over the lazy dog.</p>
 	<p>The quick brown fox jumped over the lazy dog.</p>
@@ -68,7 +68,7 @@ Makes the effect more subtle.
 		<p>The quick brown fox jumped over the lazy dog.</p>
 		<p>The quick brown fox jumped over the lazy dog.</p>
 	</div>
-	<div class="c-box c-box--border b-scroll-reveal b-scroll-reveal--subtle">
+	<div class="c-box c-box--border b-scroll-scale b-scroll-scale--subtle">
 		<p>The quick brown fox jumped over the lazy dog.</p>
 		<p>The quick brown fox jumped over the lazy dog.</p>
 		<p>The quick brown fox jumped over the lazy dog.</p>
@@ -87,7 +87,7 @@ Makes the effect more strong.
 	<p>The quick brown fox jumped over the lazy dog.</p>
 	<p>The quick brown fox jumped over the lazy dog.</p>
 </div>
-<div class="c-box c-box--border b-scroll-reveal b-scroll-reveal--strong">
+<div class="c-box c-box--border b-scale-reveal b-scale-reveal--strong">
 	<p>The quick brown fox jumped over the lazy dog.</p>
 	<p>The quick brown fox jumped over the lazy dog.</p>
 	<p>The quick brown fox jumped over the lazy dog.</p>
@@ -102,7 +102,7 @@ Makes the effect more strong.
 		<p>The quick brown fox jumped over the lazy dog.</p>
 		<p>The quick brown fox jumped over the lazy dog.</p>
 	</div>
-	<div class="c-box c-box--border b-scroll-reveal b-scroll-reveal--strong">
+	<div class="c-box c-box--border b-scroll-scale b-scale-reveal--strong">
 		<p>The quick brown fox jumped over the lazy dog.</p>
 		<p>The quick brown fox jumped over the lazy dog.</p>
 		<p>The quick brown fox jumped over the lazy dog.</p>

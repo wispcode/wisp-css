@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Press-Outline - Wisp CSS</title>
+        <title>Scroll-Scale - Wisp CSS</title>
         <link rel="stylesheet" href="/public/styles/bundle.min.css">
         <link rel="stylesheet" href="/public/styles/custom.full.css">
 
@@ -93,16 +93,94 @@
                 <main class="c-doc-layout__main">
                     <button id="js-menu-toggle" class="c-button u-margin-block-end-md u-visible-below-md"> Toggle Menu </button>
                     <div class="position:relative">
-                        <h1>Press-Outline</h1>
-<p>Outlines an element on a hover and active state.</p>
-<pre><code>&lt;button class=&quot;c-button b-press-outline&quot;&gt;
-	Press Me
-&lt;/button&gt;
+                        <h1>Scroll-Reveal</h1>
+<p>Scales an element as it enters the viewport.</p>
+<pre><code>&lt;div class=&quot;c-box c-box--border&quot;&gt;
+	&lt;p&gt;The quick brown fox jumped over the lazy dog.&lt;/p&gt;
+	&lt;p&gt;The quick brown fox jumped over the lazy dog.&lt;/p&gt;
+	&lt;p&gt;The quick brown fox jumped over the lazy dog.&lt;/p&gt;
+	&lt;p&gt;The quick brown fox jumped over the lazy dog.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;c-box c-box--border b-scroll-scale&quot;&gt;
+	&lt;p&gt;The quick brown fox jumped over the lazy dog.&lt;/p&gt;
+	&lt;p&gt;The quick brown fox jumped over the lazy dog.&lt;/p&gt;
+	&lt;p&gt;The quick brown fox jumped over the lazy dog.&lt;/p&gt;
+	&lt;p&gt;The quick brown fox jumped over the lazy dog.&lt;/p&gt;
+&lt;/div&gt;
 </code></pre>
 <div class="c-doc-preview">
-	<button class="c-button b-press-outline">
-		Press Me
-	</button>
+	<p class="c-box c-box--spacing--sm u-color-secondary">You may have to resize your browser window to see the effect.</p>
+<p><div class="c-box c-box--border">
+<p>The quick brown fox jumped over the lazy dog.</p>
+<p>The quick brown fox jumped over the lazy dog.</p>
+<p>The quick brown fox jumped over the lazy dog.</p>
+<p>The quick brown fox jumped over the lazy dog.</p>
+</div>
+<div class="c-box c-box--border b-scroll-scale">
+<p>The quick brown fox jumped over the lazy dog.</p>
+<p>The quick brown fox jumped over the lazy dog.</p>
+<p>The quick brown fox jumped over the lazy dog.</p>
+<p>The quick brown fox jumped over the lazy dog.</p>
+</div></p>
+</div>
+<h2>Modifiers</h2>
+<h3>Subtle</h3>
+<p>Makes the effect more subtle.</p>
+<pre><code>&lt;div class=&quot;c-box c-box--border&quot;&gt;
+	&lt;p&gt;The quick brown fox jumped over the lazy dog.&lt;/p&gt;
+	&lt;p&gt;The quick brown fox jumped over the lazy dog.&lt;/p&gt;
+	&lt;p&gt;The quick brown fox jumped over the lazy dog.&lt;/p&gt;
+	&lt;p&gt;The quick brown fox jumped over the lazy dog.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;c-box c-box--border b-scroll-scale b-scroll-scale--subtle&quot;&gt;
+	&lt;p&gt;The quick brown fox jumped over the lazy dog.&lt;/p&gt;
+	&lt;p&gt;The quick brown fox jumped over the lazy dog.&lt;/p&gt;
+	&lt;p&gt;The quick brown fox jumped over the lazy dog.&lt;/p&gt;
+	&lt;p&gt;The quick brown fox jumped over the lazy dog.&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+<div class="c-doc-preview">
+	<div class="c-box c-box--border">
+		<p>The quick brown fox jumped over the lazy dog.</p>
+		<p>The quick brown fox jumped over the lazy dog.</p>
+		<p>The quick brown fox jumped over the lazy dog.</p>
+		<p>The quick brown fox jumped over the lazy dog.</p>
+	</div>
+	<div class="c-box c-box--border b-scroll-scale b-scroll-scale--subtle">
+		<p>The quick brown fox jumped over the lazy dog.</p>
+		<p>The quick brown fox jumped over the lazy dog.</p>
+		<p>The quick brown fox jumped over the lazy dog.</p>
+		<p>The quick brown fox jumped over the lazy dog.</p>
+	</div>
+</div>
+<h3>Strong</h3>
+<p>Makes the effect more strong.</p>
+<pre><code>&lt;div class=&quot;c-box c-box--border&quot;&gt;
+	&lt;p&gt;The quick brown fox jumped over the lazy dog.&lt;/p&gt;
+	&lt;p&gt;The quick brown fox jumped over the lazy dog.&lt;/p&gt;
+	&lt;p&gt;The quick brown fox jumped over the lazy dog.&lt;/p&gt;
+	&lt;p&gt;The quick brown fox jumped over the lazy dog.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;c-box c-box--border b-scale-reveal b-scale-reveal--strong&quot;&gt;
+	&lt;p&gt;The quick brown fox jumped over the lazy dog.&lt;/p&gt;
+	&lt;p&gt;The quick brown fox jumped over the lazy dog.&lt;/p&gt;
+	&lt;p&gt;The quick brown fox jumped over the lazy dog.&lt;/p&gt;
+	&lt;p&gt;The quick brown fox jumped over the lazy dog.&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+<div class="c-doc-preview">
+	<div class="c-box c-box--border">
+		<p>The quick brown fox jumped over the lazy dog.</p>
+		<p>The quick brown fox jumped over the lazy dog.</p>
+		<p>The quick brown fox jumped over the lazy dog.</p>
+		<p>The quick brown fox jumped over the lazy dog.</p>
+	</div>
+	<div class="c-box c-box--border b-scroll-scale b-scale-reveal--strong">
+		<p>The quick brown fox jumped over the lazy dog.</p>
+		<p>The quick brown fox jumped over the lazy dog.</p>
+		<p>The quick brown fox jumped over the lazy dog.</p>
+		<p>The quick brown fox jumped over the lazy dog.</p>
+	</div>
 </div>
 
                     </div>

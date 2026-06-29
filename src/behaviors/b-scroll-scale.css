@@ -1,13 +1,13 @@
 /* ==========================================================================
-   b-inview-reveal
+   b-scroll-scale
    ========================================================================== */
 
 /**
- * Reveals an element as it enters the viewport.
+ * Scales an element as it enters the viewport.
  *
  * Example:
  *
- * <div class="b-inview-reveal"></div>
+ * <div class="b-scroll-scale"></div>
  */
 @layer behaviors {
     .b-scroll-scale {
@@ -16,15 +16,29 @@
         animation-range: entry 10% cover 30%;
     }
 
+    @media (prefers-reduced-motion: reduce) {
+        .b-scroll-scale {
+            animation: none;
+        }
+    }
+
+    /* --strength =========================================================== */
+
+    .b-scroll-scale--subtle {
+        animation-range: entry 5% cover 20%;
+    }
+
+    .b-scroll-scale--strong {
+        animation-range: entry 15% cover 45%;
+    }
+
     /* --keyframes ========================================================== */
 
     @keyframes wisp-scroll-scale {
         from {
-            opacity: 0;
             transform: scale(.95);
         }
         to   {
-            opacity: 1;
             transform: scale(1);
         }
     }

@@ -22,13 +22,13 @@
         }
     }
 
-    /* --strength =========================================================== */
+    /* --range =========================================================== */
 
-    .b-scroll-scale--subtle {
+    .b-scroll-scale--range-short {
         animation-range: entry 5% cover 20%;
     }
 
-    .b-scroll-scale--strong {
+    .b-scroll-scale--range-long {
         animation-range: entry 15% cover 45%;
     }
 

@@ -1,5 +1,5 @@
 /* ==========================================================================
-   b-inview-reveal
+   b-scroll-reveal
    ========================================================================== */
 
 /**
@@ -7,13 +7,29 @@
  *
  * Example:
  *
- * <div class="b-inview-reveal"></div>
+ * <div class="b-scroll-reveal"></div>
  */
 @layer behaviors {
     .b-scroll-reveal {
         animation: wisp-scroll-reveal 1ms linear both;
         animation-timeline: view();
         animation-range: entry 10% cover 30%;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .b-scroll-reveal {
+            animation: none;
+        }
+    }
+
+    /* --strength =========================================================== */
+
+    .b-scroll-reveal--subtle {
+        animation-range: entry 5% cover 20%;
+    }
+
+    .b-scroll-reveal--strong {
+        animation-range: entry 15% cover 45%;
     }
 
     /* --keyframes ========================================================== */

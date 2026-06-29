@@ -102,4 +102,10 @@
     dialog {
         margin: auto;
     }
+
+    /* hidden ============================================================= */
+
+    [hidden] {
+        display: none !important;
+    }
 }

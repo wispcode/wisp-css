@@ -50,7 +50,7 @@
 
     @keyframes wisp-scroll-nudge-bottom {
         from {
-            transform: translateY(.5rem);
+            transform: translateY(.75rem);
         }
         to {
             transform: translateY(0);
@@ -59,7 +59,7 @@
 
     @keyframes wisp-scroll-nudge-from-top {
         from {
-            transform: translateY(-.5rem);
+            transform: translateY(-.75rem);
         }
         to {
             transform: translateY(0);
@@ -68,16 +68,16 @@
 
     @keyframes wisp-scroll-nudge-from-left {
         from {
-            transform: translateX(-.5rem);
+            transform: translateX(-.75rem);
         }
         to {
             transform: translateX(0);
         }
     }
-    
+
     @keyframes wisp-scroll-nudge-from-right {
         from {
-            transform: translateX(.5rem);
+            transform: translateX(.75rem);
         }
         to {
             transform: translateX(0);

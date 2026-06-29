@@ -52,6 +52,7 @@
 @import "behaviors/b-press-outline.css";
 @import "behaviors/b-scroll-reveal.css";
 @import "behaviors/b-scroll-scale.css";
+@import "behaviors/b-scroll-nudge.css";
 
 /* ==========================================================================
    #utilities

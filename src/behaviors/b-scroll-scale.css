@@ -36,7 +36,7 @@
 
     @keyframes wisp-scroll-scale {
         from {
-            transform: scale(.95);
+            transform: scale(.98);
         }
         to   {
             transform: scale(1);

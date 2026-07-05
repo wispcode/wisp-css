@@ -14,48 +14,26 @@
  *     <div class="o-media__content"></div>
  * </div>
  */
-@layer media {
+@layer objects {
 	.o-media {
 		display: flex;
+		align-items: flex-start;
 		gap: var(--wisp-spacing-md);
 	}
 
-    .o-media__content {
-        flex: 1;
-    }
-
-		.o-media--gap-sm {
-		gap: var(--wisp-spacing-sm);
+	.o-media__image {
+		flex: none;
 	}
 
-	.o-media--gap-lg {
-		gap: var(--wisp-spacing-lg);
+	.o-media__content {
+		flex: 1;
 	}
 
 	.o-media__content,
-    .o-media__content > :last-child {
-        margin-block-end: 0;
-    }	
-
-	/* --responsive ========================================================= */
-
-	.o-media--responsive {
-		flex-direction: column;
+	.o-media__content > :last-child {
+		margin-block-end: 0;
 	}
 
-	@media (min-width: 48rem) {
-		.o-media--responsive {
-			flex-direction: row;
-		}
-	}
-
-	/* --reverse ============================================================ */
-
-	@media (min-width: 48rem) {
-		.o-media--reverse > .o-media__image {
-			order: 1;
-		}
-	}
 	/* --gap ================================================================ */
 
 	.o-media--gap-sm {
@@ -66,6 +44,22 @@
 		gap: var(--wisp-spacing-lg);
 	}
 
+	/* --responsive ========================================================= */
+
+	.o-media--responsive {
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	@media (min-width: 48rem) {
+		.o-media--responsive {
+			flex-direction: row;
+			align-items: flex-start;
+		}
+	}
+
+	/* --align ============================================================== */
+ 
 	@media (min-width: 48rem) {
 		.o-media--align-start {
 			align-items: flex-start;
@@ -77,6 +71,14 @@
 
 		.o-media--align-end {
 			align-items: flex-end;
+		}
+	}
+
+	/* --reverse ============================================================ */
+
+	@media (min-width: 48rem) {
+		.o-media--reverse > .o-media__image {
+			order: 1;
 		}
 	}
 }

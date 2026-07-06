@@ -6,31 +6,31 @@
  */
 @layer utilities {
     .u-width-xs {
-		width: 8rem;
+		inline-size: 8rem;
 	}
 
     .u-width-sm {
-		width: 12rem;
+		inline-size: 12rem;
 	}
 
     .u-width-md {
-		width: 16rem;
+		inline-size: 16rem;
 	}
 
     .u-width-lg {
-		width: 24rem;
+		inline-size: 24rem;
 	}
 
     .u-width-xl {
-		width: 32rem;
+		inline-size: 32rem;
 	}
 
     .u-width-full {
-		width: 100%;
+		inline-size: 100%;
 	}
 
     .u-width-lg,
     .u-width-xl {
-        max-width: 100%;
+        max-inline-size: 100%;
     }
 }

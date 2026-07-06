@@ -19,6 +19,10 @@
         row-gap: var(--wisp-spacing-md);
     }
 
+	.o-stack > * {
+		margin-block-end: 0
+	}
+
 	/* --gap ================================================================ */
 
 	.o-stack--gap-sm {

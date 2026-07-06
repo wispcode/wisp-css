@@ -3,7 +3,7 @@
    ========================================================================== */
 
 :root {
-    --wisp-body-color: var(wisp-color-surface-text);
+    --wisp-body-color: var(--wisp-color-surface-text);
     --wisp-body-background-color: var(--wisp-color-surface);
     --wisp-body-font-family: sans-serif;
     --wisp-body-line-height: 1.5;
@@ -30,7 +30,9 @@
 	ul,
 	figure,
 	hr,
-	fieldset {
+    table,
+	fieldset,
+    address {
 	    margin: 0;
 	    padding: 0;
 	}

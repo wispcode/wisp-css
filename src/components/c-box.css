@@ -42,6 +42,5 @@
 
 	.c-box--round {
         border-radius: var(--wisp-radius-md);
-        overflow: hidden;
     }
 }

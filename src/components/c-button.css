@@ -23,17 +23,11 @@
         border-color: transparent;
         border-radius: var(--wisp-radius-sm);
         text-decoration-line: none;
-        font-family: inherit;
-        font-size: inherit;
         color: var(--wisp-color-primary-text);
         background-color: var(--wisp-color-primary);
         cursor: pointer;
         user-select: none;
 	}
-
- 	.c-button:disabled {
-        cursor: not-allowed;
-    }
 
 	/* --size =============================================================== */
 
@@ -56,14 +50,14 @@
 	/* --outline ============================================================ */
 
 	.c-button--outline {
-		background: transparent;
+		background-color: transparent;
 		color: var(--wisp-color-surface);
 		border-color: var(--wisp-color-surface);
 	}
 
 	.c-button--outline:hover,
 	.c-button--outline:active {
-		background: var(--wisp-color-surface);
+		background-color: var(--wisp-color-surface);
 		color: var(--wisp-color-surface-text);
 	}
 }

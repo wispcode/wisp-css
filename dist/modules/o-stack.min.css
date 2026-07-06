@@ -1,1 +1,1 @@
-@layer objects{.o-stack{display:flex;flex-direction:column;row-gap:var(--wisp-spacing-md)}.o-stack--gap-sm{row-gap:var(--wisp-spacing-sm)}.o-stack--gap-lg{row-gap:var(--wisp-spacing-lg)}}
+@layer objects{.o-stack{display:flex;flex-direction:column;row-gap:var(--wisp-spacing-md)}.o-stack>*{margin-block-end:0}.o-stack--gap-sm{row-gap:var(--wisp-spacing-sm)}.o-stack--gap-lg{row-gap:var(--wisp-spacing-lg)}}

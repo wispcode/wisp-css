@@ -33,7 +33,7 @@
 
 @layer components {
     .c-table {
-        width: 100%;
+		inline-size: 100%;
     }
 
     .c-table th,

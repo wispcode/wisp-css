@@ -322,6 +322,8 @@ Module-specific properties defined inside their module.
     </table>
 </div>
 
+<!--#c-dialog-->
+
 <div class="c-box c-box--border u-margin-block-end-md">
 	<h2 class="u-type-xl">c-dialog</h2>
      <table class="c-table c-table--border-rows">
@@ -337,12 +339,34 @@ Module-specific properties defined inside their module.
     			<td>560px</td>
     		</tr>
     		<tr>
-    			<td>wisp-dialog-box-shadow</td>
+				<td>wisp-dialog-shadow-color</td>
     			<td>rgba(0, 0, 0, 0.20)</td>
     		</tr>    		 											    
     	</tbody>
     </table>
 </div>
+
+<!--#c-drawer-->
+
+<div class="c-box c-box--border u-margin-block-end-md">
+	<h2 class="u-type-xl">c-drawer</h2>
+     <table class="c-table c-table--border-rows">
+    	<thead class="u-visually-hidden">
+    		<tr>
+    			<th>Property</th>
+    			<th>Default Value</th>
+    		</tr>
+    	</thead>
+    	<tbody>
+    		<tr>
+				<td>wisp-drawer-shadow-color</td>
+    			<td>rgba(0, 0, 0, 0.20)</td>
+    		</tr>    		 											    
+    	</tbody>
+    </table>
+</div>
+
+<!--#c-table-->
 
 <div class="c-box c-box--border u-margin-block-end-md">
 	<h2 class="u-type-xl">c-table</h2>

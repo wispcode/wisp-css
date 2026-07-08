@@ -9,6 +9,10 @@
  *
  * <button class="c-button b-press-tint"></button>
  */
+ :root {
+	--wisp-tint-color: #000;
+ }
+
 @layer behaviors {
     .b-press-tint {
 		position: relative;
@@ -19,7 +23,8 @@
  		content: "";
  		position: absolute;
  		inset: 0;
- 		background: #000;
+		border-radius: inherit;
+		background-color: var(--wisp-tint-color);
  		opacity: 0;
  		pointer-events: none;
 		transition-property: opacity;
@@ -31,7 +36,18 @@
 		opacity: 0.08;
 	}
 
+	@media (prefers-reduced-motion: reduce) {
+	    .b-press-tint::after {
+	        transition: none;
+	    }
+	}
+
 	.b-press-tint:active::after {
 		opacity: 0.16;
+	}
+
+	.b-press-tint:disabled::after,
+	.b-press-tint[aria-disabled="true"]::after  {
+		opacity: 0;
 	}
 }

@@ -18,6 +18,7 @@
         justify-content: center;
         padding-block: var(--wisp-spacing-sm);
         padding-inline: var(--wisp-spacing-md);
+		line-height: 1.2;
         border-width: 1px;
         border-style: solid;
         border-color: transparent;

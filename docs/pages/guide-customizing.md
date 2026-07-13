@@ -322,6 +322,26 @@ Module-specific properties defined inside their module.
     </table>
 </div>
 
+<!--#c-button-->
+
+\<div class="c-box c-box--border u-margin-block-end-md">
+	<h2 class="u-type-xl">c-button</h2>
+     <table class="c-table c-table--border-rows">
+    	<thead class="u-visually-hidden">
+    		<tr>
+    			<th>Property</th>
+    			<th>Default Value</th>
+    		</tr>
+    	</thead>
+    	<tbody>
+    		<tr>
+    			<td class="u-width-md">wisp-button-outline-color</td>
+    			<td>var(--wisp-color-surface)</td>
+    		</tr> 		 											    
+    	</tbody>
+    </table>
+</div>
+
 <!--#c-dialog-->
 
 <div class="c-box c-box--border u-margin-block-end-md">

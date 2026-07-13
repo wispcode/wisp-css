@@ -159,4 +159,17 @@
     picture {
         max-width: 100%;
     }
+
+   	/* fieldset ============================================================= */
+
+    fieldset {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    legend {
+        padding: 0;
+        font-weight: var(--wisp-font-weight-medium);
+    }
 }

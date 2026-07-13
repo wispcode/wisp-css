@@ -11,7 +11,7 @@
  * </div>
  */
  :root {
- 	--wisp-container-width: 1200px;
+	--wisp-container-width: 75rem;
  }
 
 @layer objects {
@@ -26,7 +26,7 @@
 
     @media (min-width: 64rem) {
         .o-container {
-            max-width: var(--wisp-container-width);
+            max-inline-size: var(--wisp-container-width);
             margin-inline: auto;
             padding-inline: 0;
         }

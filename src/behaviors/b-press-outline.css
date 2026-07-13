@@ -1,5 +1,5 @@
 /* ==========================================================================
-   b-press-scale
+   b-press-outline
    ========================================================================== */
 
 /**
@@ -7,7 +7,7 @@
  *
  * Example:
  *
- * <button class="c-button b-press-tint"></button>
+ * <button class="c-button b-press-outline"></button>
  */
 :root {
     --wisp-outline-color: var(--wisp-color-primary);
@@ -17,21 +17,29 @@
 
 @layer behaviors {
     .b-press-outline {
-		transition-property: transform;
+		outline-width: var(--wisp-outline-width);
+		outline-style: solid;
+		outline-color: transparent;
+		outline-offset: var(--wisp-outline-offset);
+		transition-property: outline-color;
 		transition-duration: 200ms;
 		transition-timing-function: ease-out;
     }
 
+    @media (prefers-reduced-motion: reduce) {
+        .b-press-outline {
+			transition: none;
+        }
+    }
+
     .b-press-outline:hover,
-	.b-press-outline:active {
-		outline-width: var(--wisp-outline-width);
-        outline-offset: var(--wisp-outline-width);
-		outline-style: solid;
+	.b-press-outline:active,
+	.b-press-outline:focus-visible {
 		outline-color: var(--wisp-outline-color);
     }
 
 	.b-press-outline:disabled,
 	.b-press-outline[aria-disabled="true"]  {
-        transform: none;
+		transition: none;
 	}
 }

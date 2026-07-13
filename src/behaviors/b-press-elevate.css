@@ -23,6 +23,12 @@
 		transition-timing-function: ease-out;
     }
 
+    @media (prefers-reduced-motion: reduce) {
+        .b-press-elevate {
+			transition: none;
+        }
+    }
+
     .b-press-elevate:hover {
         box-shadow: 0 4px 8px var(--wisp-elevate-color-hover);
     }

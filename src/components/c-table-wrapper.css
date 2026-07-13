@@ -39,7 +39,7 @@
     }
 
     .c-table-wrapper > table {
-		min-width: var(--wisp-table-wrapper-min-width);
+		min-inline-size: var(--wisp-table-wrapper-min-width);
     }
 
     @media (min-width: 48rem) {

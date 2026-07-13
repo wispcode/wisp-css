@@ -11,16 +11,16 @@
  * </dialog>
  */
 :root {
-	--wisp-dialog-max-width: 560px;
-	--wisp-dialog-box-shadow: 0 8px 24px rgba(0, 0, 0, 0.20);
+	--wisp-dialog-max-width: 35rem;
+	--wisp-dialog-shadow-color: rgba(0, 0, 0, 0.20);
 }
 
 @layer components {
 	.c-dialog {
-		width: 90%;
-		max-width: var(--wisp-dialog-max-width);
+		inline-size: 90%;
+		max-inline-size: var(--wisp-dialog-max-width);
         border-radius: var(--wisp-radius-lg);
-		box-shadow: var(--wisp-dialog-box-shadow);
+		box-shadow: 0 8px 24px var(--wisp-dialog-shadow-color);
 		color: var(--wisp-color-surface-text);
 		background-color: var(--wisp-color-surface);
 	}

@@ -1,1 +1,1 @@
-@layer utilities{.u-hidden-below-md,.u-hidden-below-lg{display:none}@media(min-width:48rem){.u-hidden-below-md{display:revert}}@media(min-width:64rem){.u-hidden-below-lg{display:revert}}}
+@layer utilities{.u-hidden-below-md,.u-hidden-below-lg{display:none}@media(min-width:48rem){.u-hidden-below-md{display:revert-layer}}@media(min-width:64rem){.u-hidden-below-lg{display:revert-layer}}}

@@ -23,7 +23,7 @@
 	/* --square ============================================================= */
 
     .c-badge--square {
-        border-radius: var(--wisp-border-radius-sm);
+        border-radius: var(--wisp-radius-sm);
     }
 
 	/* --outline ============================================================ */

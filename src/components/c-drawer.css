@@ -2,16 +2,21 @@
    c-drawer
    ========================================================================== */
 
+:root {
+	--wisp-drawer-width: 16.26rem;
+	--wisp-drawer-shadow-color: rgb(0 0 0 / 0.20);
+}
+
 @layer components {
 	.c-drawer {
 		position: fixed;
 		z-index: 100;
 		top: 0;
 		left: 0;
-		height: 100vh;
-		width: 260px;
+		height: 100dvh;
+		width: var(--wisp-drawer-width);
 		overflow-y: auto;
-		box-shadow: 4px 0 12px var(--wisp-color-border);
+		box-shadow: 4px 0 12px var(--wisp-drawer-shadow-color);
 		color: var(--wisp-color-surface-text);
 		background-color: var(--wisp-color-surface);
 		transform: translateX(-100%);

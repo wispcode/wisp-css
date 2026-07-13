@@ -7,9 +7,9 @@
  *
  * Example:
  *
- * <button popovertarget=""></button>
+ * <button popovertarget="menu"></button>
  *
- * <div id="" class="b-popover"></div>
+ * <div id="menu" class="b-popover"></div>
  */
 @layer behaviors {
     .b-popover {

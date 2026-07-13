@@ -13,13 +13,13 @@
 
 	@media (min-width: 48rem) {
 		.u-hidden-below-md {
-			display: revert;
+			display: revert-layer;
 		}
 	}
 
 	@media (min-width: 64rem) {
 		.u-hidden-below-lg {
-			display: revert;
+			display: revert-layer;
 		}
 	}
 }

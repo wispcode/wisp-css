@@ -170,6 +170,8 @@
         border: 0;
     }
 
+   	/* legend =============================================================== */
+
     legend {
         padding: 0;
         font-weight: var(--wisp-font-weight-medium);

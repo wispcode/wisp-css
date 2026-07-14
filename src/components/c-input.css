@@ -14,7 +14,7 @@
 	   box-sizing: border-box; /* Fix for browsers that reapply UA styles */
 	   padding-block: var(--wisp-spacing-sm);
 	   padding-inline: var(--wisp-spacing-md);
-       line-height: 1.2;
+       line-height: 1.5;
 	   border-width: 1px;
 	   border-style: solid;
 	   border-color: var(--wisp-color-border);

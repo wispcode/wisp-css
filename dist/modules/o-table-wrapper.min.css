@@ -1,0 +1,1 @@
+:root{--wisp-table-wrapper-min-width: 40em}@layer components{.o-table-wrapper{overflow-x:auto}.o-table-wrapper>table{min-inline-size:var(--wisp-table-wrapper-min-width)}}

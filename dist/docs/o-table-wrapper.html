@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Spinner - Wisp CSS</title>
+        <title>Table Wrapper - Wisp CSS</title>
         <link rel="stylesheet" href="/public/styles/bundle.min.css">
         <link rel="stylesheet" href="/public/styles/custom.full.css">
 
@@ -93,12 +93,74 @@
                 <main class="c-doc-layout__main">
                     <button id="js-menu-toggle" class="c-button u-margin-block-end-md u-visible-below-md"> Toggle Menu </button>
                     <div class="position:relative">
-                        <h1>Spinner ​</h1>
-<p>Displays an animated loading indicator that inherits its size and color.</p>
-<pre><code>&lt;div class=&quot;c-spinner u-type-5xl&quot;&gt;&lt;/div&gt;
+                        <h1>Table Wrapper</h1>
+<p>Makes a table scrollable on small screens.</p>
+<pre><code>&lt;div class=&quot;o-table-wrapper&quot; style=&quot;max-width: 400px;&quot;&gt;
+	&lt;table class=&quot;c-table c-table--border-rows&quot;&gt;
+		&lt;thead&gt;
+			&lt;tr&gt;
+				&lt;th&gt;Head 1&lt;/th&gt;
+				&lt;th&gt;Head 2&lt;/th&gt;
+				&lt;th&gt;Head 3&lt;/th&gt;
+				&lt;th&gt;Head 4&lt;/th&gt;
+				&lt;th&gt;Head 5&lt;/th&gt;
+				&lt;th&gt;Head 6&lt;/th&gt;
+			&lt;/tr&gt;
+		&lt;/thead&gt;
+		&lt;tbody&gt;
+			&lt;tr&gt;
+				&lt;td&gt;Cell 1&lt;/td&gt;
+				&lt;td&gt;Cell 2&lt;/td&gt;
+				&lt;td&gt;Cell 3&lt;/td&gt;
+				&lt;td&gt;Cell 4&lt;/td&gt;
+				&lt;td&gt;Cell 5&lt;/td&gt;
+				&lt;td&gt;Cell 6&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;Cell 1&lt;/td&gt;
+				&lt;td&gt;Cell 2&lt;/td&gt;
+				&lt;td&gt;Cell 3&lt;/td&gt;
+				&lt;td&gt;Cell 4&lt;/td&gt;
+				&lt;td&gt;Cell 5&lt;/td&gt;
+				&lt;td&gt;Cell 6&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;
 </code></pre>
 <div class="c-doc-preview">
-	<div class="c-spinner u-type-5xl"></div>
+	<div class="o-table-wrapper" style="max-width: 400px;">
+		<table class="c-table c-table--border-rows">
+			<thead>
+				<tr>
+					<th>Head 1</th>
+					<th>Head 2</th>
+					<th>Head 3</th>
+					<th>Head 4</th>
+					<th>Head 5</th>
+					<th>Head 6</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Cell 1</td>
+					<td>Cell 2</td>
+					<td>Cell 3</td>
+					<td>Cell 4</td>
+					<td>Cell 5</td>
+					<td>Cell 6</td>
+				</tr>
+				<tr>
+					<td>Cell 1</td>
+					<td>Cell 2</td>
+					<td>Cell 3</td>
+					<td>Cell 4</td>
+					<td>Cell 5</td>
+					<td>Cell 6</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 </div>
 
                     </div>

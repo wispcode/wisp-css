@@ -1,7 +1,7 @@
 ---
 title: Table Wrapper - Wisp CSS
 layout: sidebar.njk
-permalink: /c-table-wrapper.html
+permalink: /o-table-wrapper.html
 ---
 
 # Table Wrapper
@@ -9,7 +9,7 @@ permalink: /c-table-wrapper.html
 Makes a table scrollable on small screens.
 
 ```
-<div class="c-table-wrapper" style="max-width: 400px;">
+<div class="o-table-wrapper" style="max-width: 400px;">
 	<table class="c-table c-table--border-rows">
 		<thead>
 			<tr>
@@ -44,7 +44,7 @@ Makes a table scrollable on small screens.
 ```
 
 <div class="c-doc-preview">
-	<div class="c-table-wrapper" style="max-width: 400px;">
+	<div class="o-table-wrapper" style="max-width: 400px;">
 		<table class="c-table c-table--border-rows">
 			<thead>
 				<tr>

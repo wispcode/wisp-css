@@ -26,7 +26,7 @@
  */
 :root {
 	--wisp-table-border-color: var(--wisp-color-border-subtle);
-	--wisp-table-stripe-color: #f1f5f9;
+	--wisp-table-stripe-color: var(--wisp-color-neutral);
 	--wisp-table-cell-block-padding: var(--wisp-spacing-sm);
 	--wisp-table-cell-inline-padding: var(--wisp-spacing-md);
 }

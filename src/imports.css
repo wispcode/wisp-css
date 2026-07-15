@@ -21,6 +21,7 @@
 @import "objects/o-pair.css";
 @import "objects/o-ratio.css";
 @import "objects/o-stack.css";
+@import "objects/o-table-wrapper.css";
 
 /* ==========================================================================
    #components
@@ -39,7 +40,6 @@
 @import "components/c-link-inline.css";
 @import "components/c-spinner.css";
 @import "components/c-table.css";
-@import "components/c-table-wrapper.css";
 
 /* ==========================================================================
    #behaviors

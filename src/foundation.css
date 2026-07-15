@@ -60,7 +60,8 @@
 	}
 
     ul,
-    ol {
+    ol,
+    dd {
         margin-inline-start: var(--wisp-spacing-md);
     }
 
@@ -140,6 +141,12 @@
 
     summary {
         cursor: pointer;
+    }
+
+	/* dt =================================================================== */
+
+    dt {
+        font-weight: var(--wisp-font-weight-medium);
     }
 
 	/* hr =================================================================== */

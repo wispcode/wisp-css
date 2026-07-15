@@ -9,12 +9,17 @@
  *
  * <button popovertarget="menu"></button>
  *
- * <div id="menu" class="b-popover"></div>
+ * <div id="menu" class="b-popover" popover></div>
  */
 @layer behaviors {
     .b-popover {
+		margin-block: 4px;
+        margin-inline: 0;
+        border: 0;
+        padding: 0;
+        color: inherit;
+        background-color: transparent;
 		position-area: block-end;
 		position-try-fallbacks: flip-block;
-		margin-block: 4px;
     }
 }

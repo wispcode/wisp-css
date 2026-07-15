@@ -17,4 +17,18 @@
 	.u-text-end {
 		text-align: end;
 	}
+
+	@media (min-width: 48rem) {
+		.u-text-start-md {
+			text-align: start;
+		}
+
+		.u-text-center-md  {
+			text-align: center;
+		}
+
+		.u-text-end-md {
+			text-align: end;
+		}
+	}
 }

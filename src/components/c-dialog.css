@@ -17,12 +17,15 @@
 
 @layer components {
 	.c-dialog {
+        margin: auto;
 		inline-size: 90%;
 		max-inline-size: var(--wisp-dialog-max-width);
+        padding: 0;
+        border: 0;
         border-radius: var(--wisp-radius-lg);
-		box-shadow: 0 8px 24px var(--wisp-dialog-shadow-color);
 		color: var(--wisp-color-surface-text);
 		background-color: var(--wisp-color-surface);
+		box-shadow: 0 8px 24px var(--wisp-dialog-shadow-color);
 	}
 
 	.c-dialog::backdrop {

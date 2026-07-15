@@ -1,0 +1,41 @@
+/* ==========================================================================
+   c-table-wrapper
+   ========================================================================== */
+
+/**
+ * Make a table scrollable on small screens.
+ *
+ * Example:
+ *
+ * <div class="o-table-wrapper">
+ *     <table>
+ *         <thead>
+ *             <tr>
+ *                 <th></th>
+ *                 <th></th>
+ *                 <th></th>
+ *             </tr>
+ *         </thead>
+ *         <tbody>
+ *             <tr>
+ *                 <td></td>
+ *                 <td></td>
+ *                 <td></td>
+ *             </tr>
+ *         </tbody>
+ *     </table>
+ * </div>
+ */
+:root {
+	--wisp-table-wrapper-min-width: 40em;
+}
+
+@layer components {
+    .o-table-wrapper {
+        overflow-x: auto;
+    }
+
+    .o-table-wrapper > table {
+		min-inline-size: var(--wisp-table-wrapper-min-width);
+    }
+}

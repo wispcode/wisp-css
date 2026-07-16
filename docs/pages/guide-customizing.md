@@ -247,6 +247,10 @@ Module-specific properties defined inside their module.
     			<td>sans-serif</td>
     		</tr>  
     		<tr>
+    			<td class="u-width-md">wisp-body-font-family-mono</td>
+    			<td>ui-monospace, "Cascadia Code", Menlo, Consolas, monospace</td>
+    		</tr>  			
+    		<tr>
     			<td class="u-width-md">wisp-body-line-height</td>
     			<td>1.5</td>
     		</tr>    

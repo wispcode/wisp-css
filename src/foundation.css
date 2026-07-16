@@ -6,6 +6,7 @@
     --wisp-body-color: var(--wisp-color-surface-text);
     --wisp-body-background-color: var(--wisp-color-surface);
     --wisp-body-font-family: sans-serif;
+    --wisp-body-font-family-mono: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, monospace;
     --wisp-body-line-height: 1.5;
     --wisp-link-color: var(--wisp-color-primary);
 }
@@ -117,7 +118,7 @@
         font-weight: var(--wisp-font-weight-medium);
         line-height: 1.4;
     }
-    
+
 	/* blockquote =========================================================== */
 
     blockquote {
@@ -188,5 +189,19 @@
     legend {
         padding: 0;
         font-weight: var(--wisp-font-weight-medium);
+    }
+
+    /* code ================================================================ */
+
+    code,
+    kbd,
+    pre,
+    samp {
+        font-family: var(--wisp-body-font-family-mono);
+        font-size: 1em;
+    }
+
+    pre {
+        overflow-x: auto;
     }
 }

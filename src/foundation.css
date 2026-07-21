@@ -125,6 +125,28 @@
         padding-inline-start: var(--wisp-spacing-lg);
     }
 
+	/* hr =================================================================== */
+
+    hr {
+        height: 0;
+        border: 0;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: var(--wisp-color-border);
+    }
+
+	/* dt =================================================================== */
+
+    dt {
+        font-weight: var(--wisp-font-weight-medium);
+    }
+
+ 	/* link ================================================================= */
+
+     a {
+         color: var(--wisp-link-color);
+     }
+
 	/* strong =============================================================== */
 
     strong {
@@ -138,32 +160,43 @@
         line-height: 1.4;
     }
 
-	/* link ================================================================= */
+    /* sub/sub ============================================================== */
 
-    a {
-        color: var(--wisp-link-color);
+    sub,
+    sup {
+        font-size: 75%;
+        line-height: 0;
+        position: relative;
+        vertical-align: baseline;
     }
 
-	/* summary ============================================================== */
-
-    summary {
-        cursor: pointer;
+    sub {
+        bottom: -0.25em;
     }
 
-	/* dt =================================================================== */
-
-    dt {
-        font-weight: var(--wisp-font-weight-medium);
+    sup {
+        top: -0.5em;
     }
 
-	/* hr =================================================================== */
+    /* abbr ================================================================ */
 
-    hr {
-        height: 0;
-        border: 0;
-        border-bottom-width: 1px;
-        border-bottom-style: solid;
-        border-bottom-color: var(--wisp-color-border);
+    abbr[title] {
+        text-decoration-line: underline;
+        text-decoration-style: dotted;
+    }
+
+    /* code ================================================================ */
+
+    code,
+    kbd,
+    pre,
+    samp {
+        font-family: var(--wisp-body-font-family-mono);
+        font-size: 1em;
+    }
+
+    pre {
+        overflow-x: auto;
     }
 
 	/* media ================================================================ */
@@ -179,6 +212,7 @@
    	/* fieldset ============================================================= */
 
     fieldset {
+        min-inline-size: 0;
         margin: 0;
         padding: 0;
         border: 0;
@@ -191,17 +225,9 @@
         font-weight: var(--wisp-font-weight-medium);
     }
 
-    /* code ================================================================ */
+	/* summary ============================================================== */
 
-    code,
-    kbd,
-    pre,
-    samp {
-        font-family: var(--wisp-body-font-family-mono);
-        font-size: 1em;
-    }
-
-    pre {
-        overflow-x: auto;
+    summary {
+        cursor: pointer;
     }
 }

@@ -50,6 +50,36 @@ Stacks the items on smaller screens.
 	</div>
 </div>
 
+### Wrap
+
+Wraps items onto multiple lines as needed.
+
+```
+<div class="o-cluster o-cluster--wrap">
+	<a class="c-link-inline" href="#">Link 1</a>
+	<a class="c-link-inline" href="#">Link 2</a>
+	<a class="c-link-inline" href="#">Link 3</a>				
+	<a class="c-link-inline" href="#">Link 4</a>
+	<a class="c-link-inline" href="#">Link 5</a>
+	<a class="c-link-inline" href="#">Link 6</a>
+	<a class="c-link-inline" href="#">Link 7</a>				
+	<a class="c-link-inline" href="#">Link 8</a>		
+</div>
+```
+
+<div class="c-doc-preview">
+	<div class="o-cluster o-cluster--wrap">
+		<a class="c-link-inline" href="#">Link 1</a>
+		<a class="c-link-inline" href="#">Link 2</a>
+		<a class="c-link-inline" href="#">Link 3</a>				
+		<a class="c-link-inline" href="#">Link 4</a>		
+		<a class="c-link-inline" href="#">Link 5</a>
+		<a class="c-link-inline" href="#">Link 6</a>
+		<a class="c-link-inline" href="#">Link 7</a>				
+		<a class="c-link-inline" href="#">Link 8</a>		
+	</div>
+</div>
+
 ### Gap
 
 Sets the gap between items.

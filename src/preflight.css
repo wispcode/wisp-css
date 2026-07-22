@@ -84,15 +84,6 @@
         line-height: inherit;
 	}
 
-    /* fieldset ============================================================= */
-
-    /**
-     * Allow fieldsets to shrink in flex and grid.
-     */
-    fieldset {
-        min-inline-size: 0;
-    }
-
     /* tables =============================================================== */
 
     table {

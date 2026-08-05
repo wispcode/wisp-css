@@ -17,6 +17,10 @@
         display: grid;
 	    gap: var(--wisp-spacing-md);
 	}
+    
+    .o-grid > * {
+        min-inline-size: 0;
+    }
 
 	/* --cols =============================================================== */
 

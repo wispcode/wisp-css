@@ -143,7 +143,25 @@ Global properties defined in preflight.css
     	</tbody>
     </table>
 </div>
+<!--#opacity-->
 
+<div class="c-box c-box--border u-margin-block-end-md">
+	<h2 class="u-type-xl">Opacity</h2>
+     <table class="c-table c-table--border-rows">
+    	<thead class="u-visually-hidden">
+    		<tr>
+    			<th>Property</th>
+    			<th>Default Value</th>
+    		</tr>
+    	</thead>
+    	<tbody>
+    		<tr>
+    			<td class="u-width-md">wisp-opacity-disabled</td>
+    			<td>0.5</td>
+    		</tr>
+    	</tbody>
+    </table>
+</div>
 <!--#font-weight-->
 
 <div class="c-box c-box--border u-margin-block-end-md">

@@ -35,6 +35,7 @@
     --wisp-font-size-3xl: 1.875rem;
     --wisp-font-size-4xl: 2.25rem;
     --wisp-font-size-5xl: 3rem;
+    --wisp-opacity-disabled: 0.5;
 }
 
 /* order ==================================================================== */
@@ -84,10 +85,25 @@
         line-height: inherit;
 	}
 
+    /* buttons ============================================================== */
+
+    button,
+    [type='button'],
+    [type='reset'],
+    [type='submit'] {
+        -webkit-appearance: button;
+    }
+
     /* tables =============================================================== */
 
+    /**
+     * Box-sizing needs to be set explicitly. 
+     *
+     * @link: https://www.w3.org/Bugs/Public/show_bug.cgi?id=17606
+     */
     table {
         border-collapse: collapse;
+        box-sizing: border-box; 
     }
 
     /* hidden ============================================================= */
